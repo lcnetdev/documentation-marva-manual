@@ -70,7 +70,6 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 - [Projected Publication Date](instance-description/projected-publication-date.md)
 - [Admin Metadata](instance-description/admin-metadata.md)
 
-TEST
 ## Appendices
 
 - [Appendix A: Marva Preferences and Customization](appendices/a-preferences-customization.md)
