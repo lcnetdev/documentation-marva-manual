@@ -24,9 +24,9 @@ A few lines down from this box (also in the far left panel) select:
 
 The long-term goal is to not have to update the conversion a lot but to prefer regular updates that happen at predicable times during the year. With those updates would come reconversions of the entire database which would mean that the distinction between "reconverting" and "continuing" will become unnecessary. The reason for this change was that reconvert was the default and people kept reloading LCCNs and then reporting that their work was being deleted.
 
-**Reconvert from MARC:** Means the record will go through the marc-to-bf conversion before loading into Marva. This should always be the starting point for working on a record. It guarantees that the record will be loaded using the most recent conversion. This is important because conversion is frequently updated and not reconverting can mean working in a record that is not current and might have mistakes or even missing data.
+**Reconvert from MARC:** The record will go through the MARC-to-BIBFRAME conversion before loading into Marva. This should always be the starting point for working on a record. It guarantees that the record will be loaded using the most recent conversion. This is important because the conversion software is frequently updated and not reconverting can mean working on a record that might have mistakes or even missing data.
 
-**Continue Editing BF:** This will load the record from its BF version (no looking at MARC at all), whatever is in BFDB. It can be useful if some has started a record, after reconverting, and posted it to BFDB. "Continuing" means that they can use the LCCN to get the most recent version in BFDB. This should be the same as using the link under "Your records."
+**Continue Editing BF:** The BIBFRAME version of the record is loaded into Marva. This option can be useful if someone has started to edit a record, after reconverting it from MARC, and posted it to BFDB. "Continuing" means that they can use the LCCN to get the most recent version in BFDB. This should be the same as using the link under "Your records."
 
 ---
 
