@@ -55,6 +55,21 @@ There can only be one Instance title. If you need to record a Parallel title or 
 
 ![Full example showing Instance title with Parallel title "Digitale Fotobuch" including Other title information, Part number "Teil 5", and Part name "Fotorezepte" in German](../images/page073_img02.png)
 
+### Send Subtitle to Work Variant 
+
+This feature allows you to send the subtitle from the Instance to the Work forcing it to copy over as a Variant Title.
+
+Found in the action button:
+
+![action button with Send Subtitle to Work Variant highlighted](../images/image-1772223551023.png)
+
+Clicking this will copy any value in the Instance Subtitle, often labeled "Other title information" to the Work as a new component.
+
+You can highlight a portion of Subtitle and this function will only send the highlighted portion to the work
+
+![Animated image of using the Send Subtitle to Work Variant button](../images/weppysnap_4.webp)
+
+
 ### Date
 
 Leave this field blank.
