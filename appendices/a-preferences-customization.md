@@ -1,4 +1,4 @@
-# Appendix A: Marva Preferences and Marva Customization
+# Configuration: Preferences and Customization
 
 Marva has a large number of preference options that you can use to customize and individualize the Marva experience.
 
