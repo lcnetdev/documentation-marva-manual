@@ -164,7 +164,11 @@ If there is non-Latin data in the Provision Activity component(s), the transcrib
 
 ![Provision activity examples showing: Publication with EDTF date "2024-09-XX", Search place "India", Place "Secunderabad, Telangana, India", Name "Astra Publishers", Date "September 2024"; and Distribution with Place "Secunderabad, Telangana, India", Name "Analpa Book Company"](../images/page085_img02.png)
 
-![Provision activity examples showing: Publication with EDTF date "2024/9999", Search place "Romania", Place "Bucuresti", Name "Eikon", Date "2024-"; Publication with EDTF date "2003~/2024~", Search place "Alaska", Place "Anchorage, Alaska", Name "Alaska Department of Environmental Conservation, Division of Air Quality", Date "[between 2003 and 2024]"; and Publication with EDTF date "2024", Search place "Brazil", Place "Curitiba, PR", Name "Kotter Editorial", Date "[2024]", with Copyright date "2023"](../images/page086_img01.png)
+![Provision activity examples showing: Publication with EDTF date "2024/9999", Search place "Romania", Place "Bucuresti", Name "Eikon", Date "2024-"](../images/page086_img01.png)
+
+![Publication with EDTF date "2003~/2024~", Search place "Alaska", Place "Anchorage, Alaska", Name "Alaska Department of Environmental Conservation, Division of Air Quality", Date "[between 2003 and 2024]"](../images/image-1772569217612.png)
+
+![Publication with EDTF date "2024", Search place "Brazil", Place "Curitiba, PR", Name "Kotter Editorial", Date "[2024]", with Copyright date "2023"](../images/image-1772569249276.png)
 
 ---
 
