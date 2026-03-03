@@ -18,6 +18,7 @@ Select the appropriate value from the dropdown list. volume is the default value
 
 If an additional Carrier type is needed, use the Add Another Component option to repeat the component.
 
+test
 
 ![Two Carrier type components: Add Another Component, Insert Default Values, and Delete Component action buttons shown. Below, two Carrier type components: "volume" and "computer disc (cd)"](../images/image-1772565985752.png)
 
