@@ -16,8 +16,7 @@ This component is used to record information about a dissertation or thesis rela
 
 Record a value from any source. This is a literal field.
 
-![Degree field showing "Ph. D."](../images/page068_img01.png)
-
+![Degree field showing "Ph. D."](../images/image-1772570314739.png)
 ### Institution
 
 This is an optional lookup to the LC/NACO Authority File. But the granting institution does not need to be recorded in the authorized access point from the LC/NACO Authority File. If the granting institution is not represented in the LC/NACO Authority File, record a value from any source in this field.
