@@ -24,11 +24,23 @@ There are two ways to use Marva to input LCSH strings: **Build Mode** and **Link
 
 ## Build Mode
 
+### Search Options
+
+There are a few options at the top of the search screen for different types of searches:
+- LCSH/NAF - Any subject, name, or _non-geographic_ subdivision [`ctrl+alt+1`]
+- Children's Subjects - Subjects and Children's subjects [`ctrl+alt+2`]
+- Geo. Subdiv. - Only geographic subdivisions: hierarchical or not [`ctrl+alt+3`]
+- Hubs - Search for hubs [`ctrl+alt+4`]
+
+**Note:** You can use shortcuts to jump between search types. Shortcuts are in square brackets above.
+
+**Note:** Appending a `?` at the end of the search will flip it to a keyword search. The search will be left anchored
+
 ### Search LCSH/LCNAF: Blackburn, Elizabeth H. (Elizabeth Helen), 1948-
 
 Key in Blackburn, Elizabeth H. (Elizabeth Helen), 1948-.
 
-![Subject Builder in Build Mode showing search for Blackburn with authority record preview](../images/page027_img01.png)
+![Subject Builder in Build Mode showing search for Blackburn with authority record preview](../images/image-1772569469371.png)
 
 Marva will look up this name in both LCSH and in the LCNAF. Because this is a personal name, only the LCNAF values should be reviewed. If there is an authorized access point in the LCNAF for Blackburn, Elizabeth H. (Elizabeth Helen), 1948-, it will display in the search results in Marva. A view screen on the right-hand side of the screen can be used to view the complete authority record before assigning it.
 
@@ -46,7 +58,7 @@ Key in **Biochemists--United States--Biography**. A pop-up box to the Subject Bu
 
 In the case of **Biochemists--United States--Biography**, there is not a comprehensive URI for the entire string. The individual components of the string will need to be controlled as separate URIs.
 
-![Subject Builder showing individual components of Biochemists--United States--Biography](../images/page028_img01.png)
+![Subject Builder showing individual components of Biochemists--United States--Biography](../images/image-1772569672165.png)
 
 1. Click in the box with the heading **Biochemists**. Marva will search for the URI for this individual component. Click on Biochemists (Auth Hd), then click on **Topic / Heading ($a $x)** beneath the search box.
 
@@ -56,7 +68,15 @@ In the case of **Biochemists--United States--Biography**, there is not a compreh
 
 4. Click on **Add [SHIFT+Enter]**. The LCSH string will be added as a Subject Added Entry - Topical Term in Marva. The thesaurus will be: Library of Congress subject headings.
 
-![Subject Builder showing Biography subdivision with Build Mode and Link Mode tabs](../images/page029_img01.png)
+![Subject Builder showing Biography subdivision with Build Mode and Link Mode tabs](../images/image-1772569772681.png)
+
+### Search Geo. Subdiv.: Social History--California
+
+When building a heading with a geographic subdivision, you must search under `Geo. Subdiv.` or you will not get any results.
+
+![Geographic search without Geo. Subdiv. selected](../images/image-1772569944620.png)
+
+![Geographic search with Geo. Subdiv. selected](../images/image-1772569996879.png)
 
 ### Search LCSH/LCNAF: Telomere--History
 
@@ -66,7 +86,7 @@ Key in **Telomere--History**. A pop-up box to the Subject Builder appears, with 
 
 If the lookup can find a comprehensive URI for the string, it will display above the search box with (Auth Hd) at the end of the string. In the case of Telomere--History, there is not a comprehensive URI for the entire string. The individual components of the string will need to be controlled as separate URIs.
 
-![Subject Builder showing History subdivision lookup with authority record detail](../images/page030_img01.png)
+![Subject Builder showing History subdivision lookup with authority record detail](../images/image-1772570396197.png)
 
 1. Click in the box with the heading **Telomere**. Marva will search for the URI for this individual component. Click on Telomere (Auth Hd), then click on **Topic / Heading ($a $x)** beneath the search box.
 
@@ -110,7 +130,9 @@ For example, **--Dictionaries--French, [Italian, etc.]** is a multiple subdivisi
 
 When using a multiple subdivision record as the basis for an LCSH subdivision in Marva, use the **Literal Value** to capture the correct subdivision.
 
-![Subject Builder showing Romanian as a Literal value selection](../images/page032_img01.png)
+![Subject Builder showing Romanian as a Literal value selection](../images/image-1772570623287.png)
+
+Literal values are indicated with yellow backgrounds. It is also necessary to select at `type` before you will be able to add the heading. `Types` appear below the search bar.
 
 ![Subject component showing Biology--Dictionaries--Romanian as Partially Linked with MARC output](../images/page032_img02.png)
 
