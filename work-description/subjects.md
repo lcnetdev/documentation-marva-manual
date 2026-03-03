@@ -22,7 +22,7 @@ There are two ways to use Marva to input LCSH strings: **Build Mode** and **Link
 
 ---
 
-## Build Mode
+## [Build Mode](#build-mode)
 
 ### Search Options
 
