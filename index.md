@@ -4,12 +4,17 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 
 ---
 
-## Front Matter
+## Introduction
 
 - [Manual Update History](update-history.md)
 - [About the Library of Congress Marva Quartz User Manual](about.md)
 - [BIBFRAME Work, Instance, and Item Descriptions](bibframe-overview.md)
 - [Accessing Marva](accessing-marva.md)
+
+## Configuration
+
+- [Configuration: Preferences and Customization](appendices/a-preferences-customization.md)
+- [Configuration: Using the Component Library](appendices/b-component-library.md)
 
 ## Work Description
 
@@ -71,12 +76,8 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 - [Admin Metadata](instance-description/admin-metadata.md)
 
 
-
-
 ## Appendices
 
-- [Appendix A: Marva Preferences and Customization](appendices/a-preferences-customization.md)
-- [Appendix B: Using the Component Library](appendices/b-component-library.md)
 - [Appendix C: ScriptShifter](appendices/c-scriptshifter.md)
 - [Appendix D: Re-Merge MARC](appendices/d-remerge-marc.md)
 - [Appendix E: Hubs](appendices/e-hubs.md)
