@@ -23,8 +23,6 @@ If an additional Carrier type is needed, use the Add Another Component option to
 ![Two Carrier type fields: "volume" and "computer disc (cd)"](../images/image-1772566005376.png)
 
 
-test
-
 ---
 
 [Back to Table of Contents](../index.md)
