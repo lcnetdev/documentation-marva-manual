@@ -26,8 +26,7 @@ This is a drop-down list. Select **language**.
 
 To change information in this component, use the delete key. This is a literal value so treat it as regular text. To delete the Note type, click on the **X** next to the term.
 
-![Notes about the Work showing a language note "Text in English with Italian translation." with Note type "language (lang)" selected](../images/page024_img01.png)
+![Notes about the Work showing a language note "Text in English with Italian translation." with Note type "language (lang)" selected](../images/page024_img02.png)
 
-![Notes about the Work with Note type value](../images/page024_img02.png)
 
 [Back to Table of Contents](../index.md)
