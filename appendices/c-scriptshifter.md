@@ -10,11 +10,11 @@ ScriptShifter uses AI and user input to improve its responsiveness. Anyone worki
 
 Access ScriptShifter under Preferences in the Navigation Bar in Marva.
 
-![Preferences menu with ScriptShifter highlighted, along with Diacritic Macros and Text Macros](../images/page118_img03.png)
+![Preferences menu with ScriptShifter highlighted, along with Diacritic Macros and Text Macros](../images/page121_img01.png)
 
 In the pop-up box, you will see multiple options for selecting Scripts and Actions.
 
-![ScriptShifter configuration panel showing language list with Script to Roman and Roman to Script checkboxes](../images/page118_img04.png)
+![ScriptShifter configuration panel showing language list with Script to Roman and Roman to Script checkboxes](../images/page121_img02.png)
 
 Visit [bibframe.org/scriptshifter](https://bibframe.org/scriptshifter) to test these languages.
 
@@ -26,7 +26,7 @@ For most languages and scripts, ScriptShifter offers both transliteration from n
 
 For some languages and scripts, ScriptShifter does not offer both transliteration from non-Latin script to romanized script, and the generation of non-Latin script from romanized script. For these scripts, one of the boxes will be greyed-out, meaning that the option is not available in ScriptShifter. For example, ScriptShifter does not have an option to generate Korean script from romanized Korean script, and ScriptShifter does not have an option to romanize Kurdish script.
 
-![Korean and Kurdish script options showing greyed-out unavailable conversion directions](../images/page119_img01.png)
+![Korean and Kurdish script options showing greyed-out unavailable conversion directions](../images/page122_img01.png)
 
 ## Using ScriptShifter in Marva
 
@@ -34,45 +34,45 @@ For some languages and scripts, ScriptShifter does not offer both transliteratio
 
 Set the value in ScriptShifter. Click the Esc button to exit the ScriptShifter panel.
 
-![Russian language with Script to Roman and Roman to Script both checked](../images/page119_img02.png)
+![Russian language with Script to Roman and Roman to Script both checked](../images/page122_img02.png)
 
 In Marva, the options that you selected in the ScriptShifter panel will be visible in the Lightning Bolt feature for each literal component.
 
-![Lightning Bolt menu showing Russian S2R and Russian R2S options](../images/page119_img03.png)
+![Lightning Bolt menu showing Russian S2R and Russian R2S options](../images/page123_img01.png)
 
 In a Literal field, key in or paste Russian script. If you are using the MARC Preview Panel, you will see that the Russian title in Cyrillic script shows up in the MARC 245 field.
 
-![Title information field with Russian Cyrillic text and MARC preview showing 245 field](../images/page120_img01.png)
+![Title information field with Russian Cyrillic text and MARC preview showing 245 field](../images/page123_img02.png)
 
 Click on the Lightning Bolt and select the **Russian S2R** option.
 
-![Lightning Bolt menu with Russian S2R highlighted](../images/page120_img02.png)
+![Lightning Bolt menu with Russian S2R highlighted](../images/page124_img01.png)
 
 The romanized title will be added to a second Preferred title for Work in the Marva Title information component, and the values in the MARC Preview will reflect current cataloging policy, with the romanized title in the 245 field, and the Russian Cyrillic script title in the corresponding 880 field. The non-Latin title and the romanized title will be connected with a bracket in Marva.
 
-![Title information showing both Cyrillic and romanized titles with language tags, and MARC preview showing 245 and 880 fields](../images/page121_img01.png)
+![Title information showing both Cyrillic and romanized titles with language tags, and MARC preview showing 245 and 880 fields](../images/page124_img02.png)
 
 ### Roman to Script
 
 Set the value in ScriptShifter. Click the Esc button to exit the ScriptShifter panel.
 
-![Russian language with both Script to Roman and Roman to Script checked, arrow pointing to Roman to Script](../images/page121_img02.png)
+![Russian language with both Script to Roman and Roman to Script checked, arrow pointing to Roman to Script](../images/page124_img03.png)
 
 In Marva, the options that you selected in the ScriptShifter panel will be visible in the Lightning Bolt feature for each literal component.
 
-![Lightning Bolt menu showing Russian R2S option highlighted](../images/page122_img01.png)
+![Lightning Bolt menu showing Russian R2S option highlighted](../images/page123_img01.png)
 
 In a Literal field, key in or paste romanized Russian script. If you are using the MARC Preview Panel, you will see that the romanized Russian title shows up in the MARC 245 field.
 
-![Title information with romanized Russian text and MARC preview](../images/page122_img02.png)
+![Title information with romanized Russian text and MARC preview](../images/page125_img02.png)
 
 Click on the Lightning Bolt and select the **Russian R2S** option.
 
-![Lightning Bolt menu with Russian R2S highlighted](../images/page122_img02.png)
+![Lightning Bolt menu with Russian R2S highlighted](../images/page125_img03.png)
 
 The Russian script title will be added to a second Preferred title for Work in the Marva Title information component, and the values in the MARC Preview will reflect current cataloging policy, with the romanized title in the 245 field, and the Russian Cyrillic script title in the corresponding 880 field. The non-Latin title and the romanized title will be connected with a bracket in Marva.
 
-![Title information showing both romanized and Cyrillic titles with MARC preview](../images/page123_img01.png)
+![Title information showing both romanized and Cyrillic titles with MARC preview](../images/page126_img01.png)
 
 ## Language and Script Tags
 
@@ -80,17 +80,19 @@ The Russian script title will be added to a second Preferred title for Work in t
 
 When ScriptShifter is used in Marva, language and script tags are added by default to both romanized text and text in Non-Latin script.
 
-![Title information showing romanized title tagged ru-Latn and Cyrillic title tagged ru-Cyrl, with MARC preview showing 245 and 880 fields](../images/page123_img02.png)
+![Title information showing romanized title tagged ru-Latn and Cyrillic title tagged ru-Cyrl, with MARC preview showing 245 and 880 fields](../images/page126_img02.png)
 
 These values can be changed if needed by clicking on the Lightning Bolt and selecting Set Language.
 
-![Lightning Bolt menu showing Set Language option along with Russian S2R and Russian R2S](../images/page124_img01.png)
+![Lightning Bolt menu showing Set Language option along with Russian S2R and Russian R2S](../images/page126_img03.png)
 
 Under each literal value, there will be a Language tag and a Script tag. Use the dropdown lists under Language and Script to change the values.
 
-![Language and Script tag editing interface showing Script dropdown with various script options, and Language dropdown with language options](../images/page124_img02.png)
+![Language and Script tag editing interface showing Script dropdown with various script options, and Language dropdown with language options](../images/page127_img01.png)
 
-![Set Language interface showing Russian/Latin for romanized text and Russian/Cyrillic for non-Latin text with Done button](../images/page124_img03.png)
+![Set Language interface showing Russian/Latin for romanized text and Russian/Cyrillic for non-Latin text with Done button](../images/page127_img02.png)
+![Set Language interface showing Russian/Latin for romanized text and Russian/Cyrillic for non-Latin text with Done button](../images/page127_img03.png)
+
 
 ### Global Level
 
