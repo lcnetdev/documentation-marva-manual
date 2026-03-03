@@ -10,8 +10,8 @@ This component is used to transcribe and record information about the Production
 - 008/07-10, Date 1
 - 008/11-14, Date 2
 - 008/15-17, Place of publication, production, or execution
-- 264, Production, Publication, Distribution, Manufacture, and Copyright Notice
 - 260, Publication, Distribution, etc. (Imprint)
+- 264, Production, Publication, Distribution, Manufacture, and Copyright Notice
 
 **Note:** Data now coded in the MARC 264 field formerly was recorded in the MARC 260 field. The MARC 264 field was introduced in 2011. Bibliographic records created before 2011 will use the 260 field. The MARC 260 field may continue to be used in cases where the content standard or institutional policies used do not make a distinction between functions.
 
