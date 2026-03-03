@@ -105,22 +105,24 @@ If you want to change back to the default color black, click on the undo icon (t
 Themes can be used to customize the entire Marva "skin."
 
 **Default** is white background with black font.
+![default theme example showing Marva editor](../images/image-1772571528295.png)
 
 **Dark** is black background with white font.
 
-![Dark theme example showing Marva editor](../images/page104_img01.png)
+![Dark theme example showing Marva editor](../images/page104_img02.png)
 
 **Gray** turns the default white background to gray, but keeps the black font.
 
-![Gray theme example showing Marva editor](../images/page104_img02.png)
+![Gray theme example showing Marva editor](../images/page104_img03.png)
 
 ## General
 
-![General preferences menu](../images/page105_img01.png)
+![General preferences menu](../images/page105_img02.png)
 
 General Preferences allow you to set the view for the Work, Instance, and Item icons in the Navigation panel and as the skin color in the Edit panel. Click on the color bar to the right of each option to set the preferred color.
 
-![General preferences dialog showing icon colors and Ad Hoc Mode](../images/page105_img02.png)
+![General preferences dialog showing icon colors and Ad Hoc Mode](../images/page105_img01.png)
+
 
 **Ad Hoc Mode** is used for reducing the number of components in Marva to those components that have data in them, and those components that are mandatory. Ad Hoc Mode is a very good way to eliminate extraneous space in Marva and to reduce scrolling. Once Ad Hoc Mode is on, if you want to add a component that is not present, it can be added by clicking on the component in the Navigation Panel.
 
@@ -146,13 +148,13 @@ Options for fields that use drop-down lists or searches to external vocabularies
 
 Modals are interfaces for searching external vocabularies. For example, searches in the LCNAF, LCSH, or LCDGT use modals. This option in Preferences allows you to customize the way a modal looks.
 
-![Modals preferences showing Background Color, Background Accent Color, and Text Color](../images/page105_img04.jpeg)
+![Modals preferences showing Background Color, Background Accent Color, and Text Color](../images/page105_img05.png)
 
-![Modal example showing search results](../images/page105_img05.png)
+![Modal example showing search results](../images/page105_img04.jpeg)
 
 ### Complex Lookup
 
-![Complex Lookup example showing Classification numbers with shelflisting tools](../images/page106_img01.png)
+![Complex Lookup example showing Classification numbers with shelflisting tools](../images/image-1772571797915.png)
 
 Complex Lookups are the way results show up in Modals, primarily for building pre-coordinated LCSH strings.
 
@@ -160,17 +162,17 @@ Complex Lookups are the way results show up in Modals, primarily for building pr
 
 The Action Button is also referred to as the Lightning Bolt, because the lightning bolt is the default icon for the Action Button.
 
-![Creator of Work component with Action Button (Lightning Bolt) indicated](../images/page106_img02.png)
+![Creator of Work component with Action Button (Lightning Bolt) indicated](../images/page106_img01.png)
 
 There are many configurations you can use to customize the way the Action Button looks and functions:
 
-![Action Button preferences dialog showing icon, colors, sizes, and border options](../images/page106_img03.png)
+![Action Button preferences dialog showing icon, colors, sizes, and border options](../images/page106_img02.png)
 
 ### Nav Bar
 
 The Nav Bar is at the top of Marva.
 
-![Nav Bar showing Menu, Tools, View, Preferences, Layouts, Save, Validate, and Post](../images/page106_img04.png)
+![Nav Bar showing Menu, Tools, View, Preferences, Layouts, Save, Validate, and Post](../images/page106_img03.png)
 
 The Nav Bar can be customized with these options:
 
