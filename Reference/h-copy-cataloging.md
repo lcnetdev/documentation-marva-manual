@@ -1,4 +1,4 @@
-# Appendix H: Copy Cataloging in Marva
+# Copy Cataloging
 
 Marva can be used to search OCLC and bring in a copy cataloging resource.
 
