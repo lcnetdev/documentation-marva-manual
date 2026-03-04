@@ -97,15 +97,14 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 
 <!--
 NAV_ORDER
+index.md
 about.md
 accessing-marva.md
 bibframe-overview.md
-index.md
 Configuration
 Marva tools
 Workflows
 work-description
 instance-description
 Reference
-update-history.md
 -->
