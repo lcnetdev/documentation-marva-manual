@@ -1,4 +1,4 @@
-# Appendix F: Creating Name Authority Records (NARs) in Marva
+# Creating Name Authority Records (NARs)
 
 The ability to create a new name authority record (NAR) in Marva was added in April 2025. NARs created in Marva will migrate to the LC/NACO Authority File (the NAF) in Folio. The synch time is approximately 10 minutes. Once a NAR is created in Marva and migrates to Folio, any updates needed to the NAR are done in Folio. NARs cannot be updated in Marva.
 
