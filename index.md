@@ -94,6 +94,7 @@ about.md
 accessing-marva.md
 bibframe-overview.md
 index.md
+Configuration
 work-description
 instance-description
 appendices
