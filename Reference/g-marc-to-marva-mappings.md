@@ -1,4 +1,4 @@
-# Appendix G: MARC to Marva Mappings
+# MARC to Marva Mappings
 
 This appendix provides a comprehensive mapping between MARC fields and their corresponding Marva components. Use this reference to understand how traditional MARC cataloging data translates into the BIBFRAME-based Marva editor.
 
