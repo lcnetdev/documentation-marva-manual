@@ -96,9 +96,9 @@ bibframe-overview.md
 index.md
 Configuration
 Marva tools
+Workflows
 work-description
 instance-description
-update-history.md
 Reference
-Workflows
+update-history.md
 -->
