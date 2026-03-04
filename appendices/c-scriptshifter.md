@@ -1,4 +1,4 @@
-# Appendix C: ScriptShifter
+# ScriptShifter
 
 ## About ScriptShifter
 
