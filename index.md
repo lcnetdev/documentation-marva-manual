@@ -90,13 +90,12 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 
 <!--
 NAV_ORDER
+work-description
+instance-description
+appendices
 about.md
 accessing-marva.md
 bibframe-overview.md
 index.md
 update-history.md
-appendices
-work-description
-instance-description
-test.md
 -->
