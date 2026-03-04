@@ -6,15 +6,25 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 
 ## Introduction
 
-- [Manual Update History](update-history.md)
 - [About the Library of Congress Marva Quartz User Manual](about.md)
 - [BIBFRAME Work, Instance, and Item Descriptions](bibframe-overview.md)
 - [Accessing Marva](accessing-marva.md)
 
 ## Configuration
 
-- [Configuration: Preferences and Customization](appendices/a-preferences-customization.md)
-- [Configuration: Using the Component Library](appendices/b-component-library.md)
+- [Preferences and Customization](Configuration/a-preferences-customization.md)
+- [Using the Component Library](Configuration/b-component-library.md)
+
+## Marva Tools
+
+- [ScriptShifter](Marva%20tools/c-scriptshifter.md)
+- [Creating Name Authority Records](Marva%20tools/f-creating-nar.md)
+- [Shelf Listing Browser](Marva%20tools/k-shelf-listing-browser.md)
+
+## Workflows
+
+- [Copy Cataloging](Workflows/h-copy-cataloging.md)
+- [Creating New Descriptions](Workflows/j-creating-new-descriptions.md)
 
 ## Work Description
 
@@ -76,17 +86,15 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 - [Admin Metadata](instance-description/admin-metadata.md)
 
 
-## Appendices
+## Reference
 
-- [Appendix C: ScriptShifter](appendices/c-scriptshifter.md)
-- [Appendix D: Re-Merge MARC](appendices/d-remerge-marc.md)
-- [Appendix E: Hubs](appendices/e-hubs.md)
-- [Appendix F: Creating Name Authority Records (NARs)](appendices/f-creating-nar.md)
-- [Appendix G: MARC to Marva Mappings](appendices/g-marc-to-marva-mappings.md)
-- [Appendix H: Copy Cataloging](appendices/h-copy-cataloging.md)
-- [Appendix I: Working with Non-RDA Records](appendices/i-non-rda-records.md)
-- [Appendix J: Creating New Descriptions](appendices/j-creating-new-descriptions.md)
-- [Appendix K: Shelf Listing Browser](appendices/k-shelf-listing-browser.md)
+- [Appendix D: Re-Merge MARC](Reference/d-remerge-marc.md)
+- [Appendix E: Hubs](Reference/e-hubs.md)
+- [MARC to Marva Mappings](Reference/g-marc-to-marva-mappings.md)
+- [Appendix I: Working with Non-RDA Records](Reference/i-non-rda-records.md)
+
+- [Manual Update History](update-history.md)
+
 
 <!--
 NAV_ORDER
