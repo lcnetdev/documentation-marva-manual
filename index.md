@@ -98,6 +98,7 @@ Configuration
 Marva tools
 work-description
 instance-description
-appendices
 update-history.md
+Reference
+Workflows
 -->
