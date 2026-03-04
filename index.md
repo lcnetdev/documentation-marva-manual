@@ -95,6 +95,7 @@ accessing-marva.md
 bibframe-overview.md
 index.md
 Configuration
+Marva tools
 work-description
 instance-description
 appendices
