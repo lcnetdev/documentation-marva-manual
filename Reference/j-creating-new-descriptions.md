@@ -1,4 +1,4 @@
-# Appendix J: Creating New Descriptions in Marva
+# Creating New Descriptions
 
 Before July 2025, Marva could only work with an existing MARC bibliographic record in the MARC ILS (Voyager, and for a short time starting on June 30, 2025, Folio). This was because Marva required a local system identifier for the MARC bibliographic record to facilitate import, matching, and overlaying the original MARC record with the Modern MARC record.
 
