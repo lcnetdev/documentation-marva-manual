@@ -1,5 +1,10 @@
 # Manual Update History
 
+Marva Manual updates occur continuously. Descriptions of the latest changes appear at https://github.com/lcnetdev/documentation-marva-manual/commits/main/
+
+
+Previous Marva Manual updates:
+
 | Date | Update |
 |------|--------|
 | 2025-08-29 | Added [Appendix K: Shelf Listing Browser](appendices/k-shelf-listing-browser.md) |
