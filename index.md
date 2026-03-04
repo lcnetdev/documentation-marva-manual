@@ -92,7 +92,7 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 - [Appendix E: Hubs](Reference/e-hubs.md)
 - [MARC to Marva Mappings](Reference/g-marc-to-marva-mappings.md)
 - [Appendix I: Working with Non-RDA Records](Reference/i-non-rda-records.md)
-- [Manual Update History](update-history.md)
+- [Manual Update History](Reference/update-history.md)
 
 
 <!--
