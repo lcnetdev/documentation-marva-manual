@@ -94,9 +94,9 @@ about.md
 accessing-marva.md
 bibframe-overview.md
 index.md
-test.md
 update-history.md
 appendices
 work-description
 instance-description
+test.md
 -->
