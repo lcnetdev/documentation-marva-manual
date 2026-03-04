@@ -1,4 +1,4 @@
-# Appendix K: Shelf Listing Browser
+# Shelf Listing Browser
 
 Marva has a shelflisting tool that allows users to assign complete LC Classification call numbers to bibliographic resources. Library of Congress shelflisting is based on the LC Classification numbers assigned in the bibliographic description (Marva: Work: Classification numbers; MARC Bibliographic: 050, Library of Congress Call Number). Shelflisting based on LC Classification numbers assigned in bibliographic descriptions is a unique need for the Library of Congress. Many libraries shelflist against the Library of Congress Call Number assigned in Holdings records, since Holdings records represent resources that are present and accessible in a library's collections. Library of Congress bibliographic resources do not always have associated Holdings records. For example, CIP policies do not require a Holdings record for a bibliographic resource until the resource is received. But the shelflisting needs to be done in anticipation of receiving the resource. Bibliographic descriptions for Do Not Acquire resources are accessible in the LC catalog, but do not have associated Holdings records.
 
