@@ -75,6 +75,6 @@ When using the call number in an external application like the Folio Inventory a
 ---
 
 See also:
-- [MARC to Marva Mappings](./Reference/g-marc-to-marva-mappings.md) for how the 050 Library of Congress Call Number maps to Marva's Classification numbers component
+- [MARC to Marva Mappings](../Reference/g-marc-to-marva-mappings.md) for how the 050 Library of Congress Call Number maps to Marva's Classification numbers component
 
 [Back to Table of Contents](../index.md)
