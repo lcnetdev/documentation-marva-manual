@@ -61,6 +61,6 @@ If a component is not needed, delete it.
 
 ![Lightning bolt menu showing Delete Component option for Search related work](../images/page065_img03.png)
 
-See [Appendix E: Hubs](../appendices/e-hubs.md) for more information.
+See [Appendix E: Hubs](../Reference/e-hubs.md) for more information.
 
 [Back to Table of Contents](../index.md)
