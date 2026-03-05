@@ -42,6 +42,6 @@ If you do not find the Hub that is needed, create a Hub in Marva.
 
 ![Lightning bolt menu showing Create Hub option for Search series Hub](../images/page062_img02.png)
 
-See [Appendix E: Hubs](../appendices/e-hubs.md) for more information.
+See [Appendix E: Hubs](../Reference/e-hubs.md) for more information.
 
 [Back to Table of Contents](../index.md)
