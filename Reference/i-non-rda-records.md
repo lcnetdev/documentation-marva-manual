@@ -57,7 +57,7 @@ Description sent back to Folio as a Modern MARC description:
 ---
 
 See also:
-- [MARC to Marva Mappings](./Reference/g-marc-to-marva-mappings.md) for details on how Ldr/18 maps to Marva's Description conventions
-- [Copy Cataloging](./Workflows/h-copy-cataloging.md) for importing records from OCLC that may need re-coding
+- [MARC to Marva Mappings](./g-marc-to-marva-mappings.md) for details on how Ldr/18 maps to Marva's Description conventions
+- [Copy Cataloging](../Workflows/h-copy-cataloging.md) for importing records from OCLC that may need re-coding
 
 [Back to Table of Contents](../index.md)
