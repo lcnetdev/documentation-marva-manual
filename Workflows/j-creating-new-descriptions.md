@@ -68,8 +68,8 @@ Open in QuickMarc Editor (New Record) and add 906, 925, and 955 data. Use origbf
 ---
 
 See also:
-- [Appendix G: MARC to Marva Mappings](./g-marc-to-marva-mappings.md) for understanding how Marva components map to MARC fields in the generated record
-- [Appendix H: Copy Cataloging](./h-copy-cataloging.md) for importing existing records from OCLC instead of creating new ones
-- [Appendix I: Working with Non-RDA Records](./i-non-rda-records.md) for handling records that need to be re-coded to RDA
+- [MARC to Marva Mappings](../Reference/g-marc-to-marva-mappings.md) for understanding how Marva components map to MARC fields in the generated record
+- [Copy Cataloging](./h-copy-cataloging.md) for importing existing records from OCLC instead of creating new ones
+- [Working with Non-RDA Records](../Reference/i-non-rda-records.md) for handling records that need to be re-coded to RDA
 
 [Back to Table of Contents](../index.md)
