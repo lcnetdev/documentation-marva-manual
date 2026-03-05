@@ -1,10 +1,10 @@
-# Appendix I: Working with Non-RDA Records in Marva
+# Working with Non-RDA Records
 
 The Library of Congress has been using *Resource Description & Access*, RDA, as its cataloging code and standard since 2012. In the MARC Bibliographic Format, all new bibliographic descriptions created since 2012 will be coded "rda" in the 040 field, subfield $e, and will have the Ldr/18 value, Descriptive cataloging form, set to i: ISBD punctuation included.
 
 ## RDA Data Elements in Marva
 
-In Marva, these data elements will appear in the Admin Metadata part of the description.
+In Marva, these data elements will appear in Admin Metadata.
 
 ![Shared MARC bibliographic record in Folio Inventory showing RDA record with Ldr/18 highlighted](../images/page185_img01.png)
 
