@@ -35,6 +35,6 @@ If you do not find the Hub that is needed:
 
 ![Lightning bolt menu showing Create Hub option](../images/page014_img01.png)
 
-See [Appendix E: Hubs](../appendices/e-hubs.md) for more information.
+See [Appendix E: Hubs](../Reference/e-hubs.md) for more information.
 
 [Back to Table of Contents](../index.md)
