@@ -308,6 +308,6 @@ The preferences include:
 
 ---
 
-See also [Appendix G: MARC to Marva Mappings](./g-marc-to-marva-mappings.md) for how MARC fields map to Marva components.
+See also [MARC to Marva Mappings](../Reference/g-marc-to-marva-mappings.md) for how MARC fields map to Marva components.
 
 [Back to Table of Contents](../index.md)
