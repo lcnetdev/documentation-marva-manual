@@ -154,9 +154,11 @@ Modals are interfaces for searching external vocabularies. For example, searches
 
 ### Complex Lookup
 
-![Complex Lookup example showing Classification numbers with shelflisting tools](../images/image-1772571797915.png)
+![Complex lookup options](../images/image-1773170651659.png)
 
-Complex Lookups are the way results show up in Modals, primarily for building pre-coordinated LCSH strings.
+Complex Lookups are the way results show up in Modals, primarily for building pre-coordinated LCSH strings.  The options are documented in the modal.  It is here, for example, where you can customize how many results are displayed for names or subject headings.
+
+![Search results showing more than the default 5](../images/image-1773170867307.png)
 
 ### Action Button
 
