@@ -23,19 +23,20 @@ Activate the Copy Cat. feature in Marva by clicking on **Menu > Copy Cat.**
 There are four searching options for the Copy Cat. feature:
 
 - Standard Numbers (ISSN, LCCN)
+  - Full list is available [here](https://help.oclc.org/Librarian_Toolbox/Searching_WorldCat_Indexes/Bibliographic_records/Bibliographic_record_indexes/Indexes_S_to_Z/Standard_Number). Additionally, this search can search on OCLC number
 - Title
 - Name
 - Keyword
 
 Standard Numbers is the default search and is the most precise.
 
-![Copy Cat Search interface showing search fields and options](../images/page167_img01.png)
+![Copy Cat Search interface showing search fields and options](../images/image-1773146085806.png)
 
 The resource has an ISBN. Input the ISBN in the Enter Value to Search box and click on the search icon (the magnifying glass). The LCCN box can be left blank for now. A priority level was automatically assigned by the Copy Cat. feature. That can be changed if necessary.
 
 ### Reviewing Search Results
 
-![Copy Cat Search showing 4 results for ISBN 9783111333496](../images/page168_img01.png)
+![Copy Cat Search showing 4 results for ISBN 9783111333496](../images/image-1773146239942.png)
 
 Four matches were found in OCLC for this ISBN. The Results screen gives some important information about the resources:
 
@@ -59,9 +60,19 @@ Your cataloger's judgment will determine which of these four records is appropri
 
 With the selected record highlighted (the beige background shows the highlighted record), insert the LCCN in the LCCN: box and verify that the Priority: value is correct. In this case, the PccAdapt record in OCLC has the LCCN, so it will be automatically populated in the LCCN box.
 
-![Copy Cat Search with LCCN populated and full MARC preview](../images/page169_img02.png)
+![Copy Cat Search with LCCN populated and full MARC preview](../images/image-1773146388334.png)
 
-The Copy Cat. feature will check for an existing record with the LCCN. Click on the **Existing Record with this LCCN** to verify. In this case, it is the ibc resource in Folio, so everything is ok.
+The Copy Cat. feature will check for an existing record. The match can be done with the LCCN, the BibID, or an other ID such as ISBN. If there is a match, there will be a link. Click on the **Existing Record with this LCCN** to verify. In this case, it is the ibc resource in Folio, so everything is ok.
+
+### Overriding Match
+
+If there is a mismatch and you know the correct Bib ID for the record, you can override the match with that BibID.
+
+To override, select the **Overlay known BibID** and enter the BibId for the record you want to overlay on top of.
+
+![Overriding a mismatched record](../images/image-1773146612834.png)
+
+
 
 ### Verifying via Linked Data Service
 
