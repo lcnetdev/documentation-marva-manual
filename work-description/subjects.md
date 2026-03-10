@@ -72,7 +72,7 @@ In the case of **Biochemists--United States--Biography**, there is not a compreh
 
 ### Search Geo. Subdiv.: Social History--California
 
-When building a heading with a geographic subdivision, you must search under `Geo. Subdiv.` or you will not get any results.
+When building a heading with a geographic subdivision, you should search under `Geo. Subdiv.` All geographic subdivisions will appear under this option.
 
 ![Geographic search without Geo. Subdiv. selected](../images/image-1772569944620.png)
 
