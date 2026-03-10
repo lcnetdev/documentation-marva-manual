@@ -23,6 +23,7 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 
 ## Workflows
 
+- [Creating a New Hub](Workflows/create-hub.md)
 - [Copy Cataloging](Workflows/h-copy-cataloging.md)
 - [Creating New Descriptions](Workflows/j-creating-new-descriptions.md)
 
