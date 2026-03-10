@@ -1,6 +1,6 @@
 # Manual Update History
 
-Marva Manual updates occur continuously. Descriptions of the latest changes appear at https://github.com/lcnetdev/documentation-marva-manual/commits/main/
+Marva Manual updates occur continuously. Descriptions of the changes since August, 2025, appear at https://github.com/lcnetdev/documentation-marva-manual/commits/main/
 
 
 Previous Marva Manual updates:
