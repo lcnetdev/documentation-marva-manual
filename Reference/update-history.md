@@ -3,7 +3,7 @@
 Marva Manual updates occur continuously. Descriptions of the changes since August, 2025, appear at https://github.com/lcnetdev/documentation-marva-manual/commits/main/
 
 
-Previous Marva Manual updates:
+Earlier (pre-2026) Marva Manual updates:
 
 | Date | Update |
 |------|--------|
