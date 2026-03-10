@@ -7,8 +7,8 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 ## Introduction
 
 - [About the Library of Congress Marva Quartz User Manual](about.md)
-- [BIBFRAME Work, Instance, and Item Descriptions](bibframe-overview.md)
 - [Accessing Marva](accessing-marva.md)
+- [BIBFRAME Work, Instance, and Item Descriptions](bibframe-overview.md)
 
 ## Configuration
 
@@ -17,8 +17,8 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 
 ## Marva Tools
 
-- [ScriptShifter](Marva%20tools/c-scriptshifter.md)
 - [Creating Name Authority Records](Marva%20tools/f-creating-nar.md)
+- [ScriptShifter](Marva%20tools/c-scriptshifter.md)
 - [Shelf Listing Browser](Marva%20tools/k-shelf-listing-browser.md)
 
 ## Workflows
