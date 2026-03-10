@@ -1,4 +1,4 @@
-## Creating a Hub in Marva
+## Creating a New Hub
 
 If a Hub is not found, and according to authority policies and practices, a title or name-title authority record would not be created for the access point, you can create a Hub "Stub" directly in Marva. This is new functionality as of February 2025 and will be improved over time.
 
