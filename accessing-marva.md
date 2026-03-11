@@ -1,14 +1,16 @@
 # Accessing Marva
 
-Using Chrome enter [https://editor.id.loc.gov/](https://editor.id.loc.gov/)
+Using Chrome enter [https://editor.id.loc.gov/marva](https://editor.id.loc.gov/marva)
 
-In the "This 'quartz' version of Marva is the updated editor for the BF Prod 2024- project." Area, select:
 
-**Marva Production**
 
-Enter user name and code. For user name, use your Windows ID (the part of your LC email address before the @loc.gov). For code, use your cataloger code that you add in the MARC 955 field of records you work on.
+## LC SSO Access
 
-![Marva login screen showing the "Hello! Before you start..." dialog with fields for name and cataloging code](images/page011_img01.png)
+At LC we have Single Sign-On (SSO) which will automatically log you into Marva. The only information you need to provide before you get started is the Cataloger ID.
+You will see this pop-up asking for your code. Use your cataloger code that you add in the MARC 955 field of records you work on.
+
+![a popup asking for you to enter your cataloger code](./images/image-1773254412283.png)
+
 
 On the far upper left of the screen you will see "Load"
 
