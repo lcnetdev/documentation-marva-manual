@@ -230,7 +230,7 @@ Sets all Preferences to the Marva default.
 
 Marva has many Preference options for customization. You do not want to lose your customization when you close Marva and restart it. To prevent loss of personalized customization:
 
-1. Remember the importance of a **Hard Refresh** (Ctrl+R)! This will generally solve most personalized customization issues.
+1. Remember the importance of a **Hard Refresh** (Ctrl+Shift+R)! This will generally solve most personalized customization issues.
 
 2. Go to this address in Chrome (copy and paste into URL field):
 
@@ -244,7 +244,7 @@ Marva has many Preference options for customization. You do not want to lose you
 
 ### Keep in Mind
 
-**Import Preferences:** When you Import Preferences, most preferences import as expected, but the customized Component Library will only import after a **Hard Refresh** (Ctrl+R).
+**Import Preferences:** When you Import Preferences, most preferences import as expected, but the customized Component Library will only import after a **Hard Refresh** (Ctrl+Shift+R).
 
 **Empty Records:** "Your Records" does not show until you load at least one record.
 
