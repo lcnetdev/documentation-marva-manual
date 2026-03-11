@@ -40,6 +40,12 @@ When you have identified the correct name, click on **Add [Shift+Enter]**.
 
 The URI associated with the name will be added to Marva.
 
+You can also add the classification number from the NAR
+
+![Selecting the class number will add it to the Classification numbers field](../images/Picture1.png)
+
+The icon changes to give some feedback: + >> ✓  
+
 ![Creator of Work showing linked name with green verification icon](../images/page015_img03.png)
 
 ## Relationship Designator
