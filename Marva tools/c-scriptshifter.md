@@ -74,6 +74,10 @@ The Russian script title will be added to a second Preferred title for Work in t
 
 ![Title information showing both romanized and Cyrillic titles with MARC preview](../images/page126_img01.png)
 
+Scriptshifter supports text highlighting. If there is highlighted text, only that text will be transliterated. Other text will retain the original script
+
+![Text highlighting](../images/Picture12.png)
+
 ## Language and Script Tags
 
 ### Component Level
