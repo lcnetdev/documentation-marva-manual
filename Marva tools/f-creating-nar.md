@@ -92,6 +92,9 @@ LDR        nz  a22     ni 4500
 Stenson) $u http://id.loc.gov/resources/instances/e2397673
 ```
 
+Marva has some initial validation for NARs. The focus of the validation is that nothing is missing and fields/subfields aren't empty. The validation appears beneath the MARC preview when creating a NAR.
+![NAR preview shows validation result](../images/image-1773250902267.png)
+
 ### Posting the NAR
 
 If you want to change something, click on Go Back and make any edits. If everything looks ok, click on Post NAR. When you click on Post NAR, Marva will assign an LCCN to the new NAR, and a copy will be accessible in ID.LOC.GOV immediately.
