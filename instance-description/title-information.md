@@ -49,6 +49,10 @@ If there is other title information for the title, transcribe it here. Do not us
 
 ![Instance title showing title "The digital photography book", Part number "Part 5", Part name "Photo recipes", and Other title information "the step-by-step secrets for how to make your photos look like the pros'!"](../images/page072_img04.png)
 
+When there is Other title information in the instance title there will be a second option, "Send Subtitle to Work Variant" that will create a variant title in the work with the information
+
+!["Send Subtitle to Work Variant" that will create a variant title in the work with the information](../images/Picture16.png)
+
 There can only be one Instance title. If you need to record a Parallel title or a Variant title, add a new Title component in the [Work description](../work-description/) and select the appropriate value. Parallel titles and Variant titles are recorded in the Work description. Titles that are dependent on a location, such as a Spine title or a Caption title, are recorded in the Instance description.
 
 ![Title information component with Add Another Component, Delete Component, and Send to Work action buttons](../images/page073_img01.png)
