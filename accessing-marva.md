@@ -28,6 +28,33 @@ The long-term goal is to not have to update the conversion a lot but to prefer r
 
 **Continue Editing BF:** The BIBFRAME version of the record is loaded into Marva. This option can be useful if someone has started to edit a record, after reconverting it from MARC, and posted it to BFDB. "Continuing" means that they can use the LCCN to get the most recent version in BFDB. This should be the same as using the link under "Your records."
 
+**Your records**
+
+Your records will list all records edited or posted within the last two weeks.
+
+Alternate Version Posted: If there are multiple versions of a record and one of the earlier records was posted, there will be an icon to indicate this and the alternate version that was posted will have an icon.
+
+![Alternate version of records](./images/Picture2.png)
+green: the most recent version was posted
+yellow: an alternate, older version was posted
+black:  the alternate version that was posted
+
+Empty records under can be deleted. "Empty" means they don't have a title or an LCCN
+![Click on the trashcan to delete empty records](./images/Picture3.png)
+
+Record histories for individual records can be accessed from within each record. This is legacy data from voyager. The history is available from the nav bar under “Record Info”
+
+![Record info within a record](./images/Picture4-1773252905796.png)
+
+If you don't see it, it is because your screen is too narrow. To not make the nav bar cluttered and difficult to use, the record info will be under "Menu."
+
+![Access record info from the menu](./images/Picture5.png)
+
+You can return to the Load record screen by clicking on the house button in the navigation bar without going through "Menu"
+
+![House button in the navigation bar](./images/Picture6.png)
+
+
 ---
 
 [Back to Table of Contents](index.md)
