@@ -137,7 +137,17 @@ $u http://id.loc.gov/resources/instances/e0397704
 
 ---
 
-## Example 2: Creating a Corporate Name Authority Record with a Non-Latin Variant
+## Example 2: Creating a NAR when multiple creators are present
+
+In this example, the statement of responsibility (SOR) includes two authors and one of them needs a NAR. Both authors will appear under Multi SOR found and you can select the author that needs a new NAR
+
+![Record has multiple creators/contributors](../images/Picture14.png)
+
+Once you select the author, the 670 fields will update and you can continue adding information as needed
+
+![Select the author whose NAR you want to create](../images/Picture15.png)
+
+## Example 3: Creating a Corporate Name Authority Record with a Non-Latin Variant
 
 In this example, there is no associated name authority record for the association. The association is being used as a Contributor, with the relationship Editor of compilation, for this Russian compilation.
 
