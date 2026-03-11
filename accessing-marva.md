@@ -14,6 +14,22 @@ On the far upper left of the screen you will see "Load"
 
 In the box that states "URL to resource or identifier to search" scan, copy/paste, or enter the LCCN of the item.
 
+If you have just created the record in Folio, it might not appear in Marva immediately but there is a way to quickly sync the record
+
+![Request LCAP Sync](./images/Picture8.png)
+
+Once you click the sync button, a new tab will open, once this fully loads, you can close it and return to your Marva tab
+
+![New tab opens for sync](./images/Picture9.png)
+
+Now use Click to Run search again to bring up your record:
+
+![Click to run search again](./images/Picture10.png)
+
+You will now see you record
+
+![Record now appears](./images/Picture11.png)
+
 A few lines down from this box (also in the far left panel) select:
 
 **Monograph** if your work is a monograph / book
