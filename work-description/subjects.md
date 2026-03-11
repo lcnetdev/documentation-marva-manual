@@ -100,6 +100,10 @@ Click on **Add [SHIFT+Enter]**. The LCSH string will be added as a Subject Added
 
 ![Three Subject components showing all completed subjects with thesaurus values](../images/page030_img02.png)
 
+When searching a subject, adding `?` at the end of the word will perform a keyword search
+
+![Adding ? at the end of the word will perform a keyword search](../images/Picture13.png)
+
 ---
 
 ## Link Mode
