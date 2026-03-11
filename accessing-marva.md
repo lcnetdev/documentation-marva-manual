@@ -20,6 +20,10 @@ A few lines down from this box (also in the far left panel) select:
 
 ![Marva main screen showing the Load panel with Load Type options (Reconvert from MARC, Continue Editing BF), profile buttons, Your Records panel, and Create Original BIBFRAME descriptions panel](images/page011_img02.png)
 
+When a search has 0 results, there will be a link to perform the search in CopyCat
+
+![Search Copycat link](./images/Picture7.png)
+
 ## More About Load Type
 
 The long-term goal is to not have to update the conversion a lot but to prefer regular updates that happen at predicable times during the year. With those updates would come reconversions of the entire database which would mean that the distinction between "reconverting" and "continuing" will become unnecessary. The reason for this change was that reconvert was the default and people kept reloading LCCNs and then reporting that their work was being deleted.
