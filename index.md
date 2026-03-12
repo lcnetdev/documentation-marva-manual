@@ -20,12 +20,15 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 - [Creating Name Authority Records](Marva%20tools/f-creating-nar.md)
 - [ScriptShifter](Marva%20tools/c-scriptshifter.md)
 - [Shelf Listing Browser](Marva%20tools/k-shelf-listing-browser.md)
+- [Marva History Log](Marva%20tools/marva-history-log.md)
+- [User Directory](Marva%20tools/user-directory.md)
 
 ## Workflows
 
 - [Creating a New Hub](Workflows/create-hub.md)
 - [Copy Cataloging](Workflows/h-copy-cataloging.md)
 - [Creating New Descriptions](Workflows/j-creating-new-descriptions.md)
+- [Save](Workflows/Saving%20and%20posting%20a%20record.md)
 
 ## Work Description
 
