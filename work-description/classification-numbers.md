@@ -127,4 +127,18 @@ Classification and call numbers that would be recorded in the MARC 051 field wil
 
 To change any value in the Classification component, delete the value and add the new one. The Classification component is fully interactive.
 
+## Populating from Subject Search
+
+When searching for a subject, the details on the right side may have a classification number. The number is populated from the `053` in the authority record.
+
+Next to the number is a plus symbol. Clicking on this will add the class number to the record.
+
+![Subject Search with Class Number](../images/image-1773344035529.png)
+
+In the image above, `(DLC)` means this class number was assigned by the Library of Congress.
+
+If the classification number comes from a long string, there will be a question mark in a circle at the end. Hovering over it will show the entire classification.
+
+![Full Classification String](../images/image-1773344277011.png)
+
 [Back to Table of Contents](../index.md)
