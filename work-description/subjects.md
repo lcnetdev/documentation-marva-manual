@@ -178,4 +178,12 @@ If you need to submit an LCSH subject proposal, there will not be a link to use 
 
 ![Subject Builder showing literal value for proposed heading "Regulatory arbitrage (Economics)"](../images/page033_img03.png)
 
+---
+
+## Classification Numbers
+
+It is possible to add classification numbers from the subject search. See [Classification Numbers](work-description/classification-numbers.md) for details.
+
+---
+
 [Back to Table of Contents](../index.md)
