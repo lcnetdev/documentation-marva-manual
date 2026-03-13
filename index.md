@@ -93,9 +93,10 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 ## Reference
 
 - [Appendix D: Re-Merge MARC](Reference/d-remerge-marc.md)
-- [Appendix E: Hubs](Reference/e-hubs.md)
+- [Hubs](Reference/e-hubs.md)
 - [MARC to Marva Mappings](Reference/g-marc-to-marva-mappings.md)
-- [Appendix I: Working with Non-RDA Records](Reference/i-non-rda-records.md)
+- [Searching Related Works and Hubs](Reference/searching-works-hubs.md)
+- [Working with Non-RDA Records](Reference/i-non-rda-records.md)
 - [Manual Update History](Reference/update-history.md)
 
 
