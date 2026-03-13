@@ -1,6 +1,19 @@
-# Appendix E: Hubs
+# Hubs
 
 BIBFRAME Hubs, Work Hubs, or Hubs, are **collocation** and **aggregation** resources.
+
+Hubs are not necessarily bibliographic entities on their own. Hubs are a means to organize resources. Hubs will not contain all the descriptive or subject metadata that you would expect to find in a bibliographic description.
+
+The importance of Hubs as **collocation** and **aggregation** resources cannot be overstated. *Resource Description & Access*, RDA, takes an entirely different approach to work and expression access points. In RDA, disambiguation of work and expression access points is tied to identification. In RDA, work and expression access points are meant to **disambiguate**, not collocate or aggregate.
+
+For this reason, you will notice that Hubs are very lightweight in the amount of information they contain. Hubs are intended to be lithe and flexible, serving as a means to group like things together.
+
+There are four components in the Marva Work entity that use Hubs:
+
+- Expression of [search for a Hub]
+- Subjects --> Hub as subject
+- Search series Hub (optional)
+- Search related work
 
 ---
 
@@ -42,23 +55,6 @@ From the Folio bibliographic database, Hubs are generated from:
 - **MARC 730**
   - *730 02 $a Origo mundi. $l English*
     (an English translation of Origo mundi that is included in a parallel language edition)
-
----
-
-## Collocation and Aggregation
-
-Hubs are not necessarily bibliographic entities on their own. Hubs are a means to organize resources. Hubs will not contain all the descriptive or subject metadata that you would expect to find in a bibliographic description.
-
-The importance of Hubs as **collocation** and **aggregation** resources cannot be overstated. *Resource Description & Access*, RDA, takes an entirely different approach to work and expression access points. In RDA, disambiguation of work and expression access points is tied to identification. In RDA, work and expression access points are meant to **disambiguate**, not collocate or aggregate.
-
-For this reason, you will notice that Hubs are very lightweight in the amount of information they contain. Hubs are intended to be lithe and flexible, serving as a means to group like things together.
-
-There are four components in the Marva Work entity that use Hubs:
-
-- Expression of [search for a Hub]
-- Subjects --> Hub as subject
-- Search series Hub (optional)
-- Search related work
 
 ---
 
