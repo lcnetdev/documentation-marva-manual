@@ -212,15 +212,27 @@ Shelflisting tools available in the Classification numbers component Tool Box ca
 
 > **Note:** The Cutter Calculator only appears when there is a Creator or Title in the Work description.
 
-## Export Prefs
+## Saving Preferences
+
+![Options for saving and loading preferences](../images/image-1773764452447.png)
+
+### Export Prefs
 
 You can export a specific set of Preferences that you have created and share with other Marva users. The export will create a .json file that can be saved locally or shared.
 
-## Import Prefs
+### Import Prefs
 
 You can import a .json file with Marva Preferences. The pop-up box that appears when you click on Import will allow you to select any or all of the Preferences in the file.
 
 ![Import Preferences dialog showing checkboxes for Everything, Marva Styling, Script Shifter Settings, Text Macro Settings, Diacritic Macro Settings, Custom Layouts, and Component Library](../images/page109_img02.png)
+
+### Save to DB
+
+You can save preferences to Marva's backend. This will maintain your preferences in Marva's database and not require managing any files locally.
+
+### Load from DB
+
+If you have saved your preferences to the database, you can reload them from there as well.
 
 ## Reset Prefs
 
