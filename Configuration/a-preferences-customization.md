@@ -230,6 +230,9 @@ You can import a .json file with Marva Preferences. The pop-up box that appears 
 
 You can save preferences to Marva's backend. This will maintain your preferences in Marva's database and not require managing any files locally.
 
+Doing this will also mean that you can load your preferences into Marva if you are using another computer or browser. The preferences will be saved in the database based on your login information.
+
+
 ### Load from DB
 
 If you have saved your preferences to the database, you can reload them from there as well.
