@@ -39,6 +39,17 @@ Marva has the ability to save with a shortcut as well as undo a change and redo 
 
 ---
 
+## Copy & Paste
+
+Marva has the ability to copy and paste components. This can be used in a record or between records.
+
+Shortcuts:
+- Turn on Copy Mode: `ctrl+alt+c`
+- Copy: `alt+c`
+- Paste: `alt+v`
+- Select all: `alt+a`
+
+---
 ## Layouts
 
 If you've created a custom layout in Marva, you can turn it on with a shortcut. The key combination will be shown next to the layout's name.
