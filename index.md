@@ -21,6 +21,7 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 - [ScriptShifter](Marva%20tools/c-scriptshifter.md)
 - [Shelf Listing Browser](Marva%20tools/k-shelf-listing-browser.md)
 - [Marva History Log](Marva%20tools/marva-history-log.md)
+- [MLC Number Generator](./Marva%20tools/mlc-numbers.md)
 - [User Directory](Marva%20tools/user-directory.md)
 
 ## Workflows
