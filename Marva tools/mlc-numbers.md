@@ -80,7 +80,7 @@ Any genreForm whose URI (top-level `@id` or first `componentList` `@id`) matches
 
 ### Label matches (case-insensitive unless noted)
 
-- Contains **"fiction"** but NOT **"onfiction"** (excludes "Nonfiction")
+- Contains **"fiction"** but NOT **"nonfiction"** (excludes "Nonfiction")
 - Contains **"(Fiction)"** (case-sensitive)
 - Contains **"humor"**
 - Contains **"poetry"**
