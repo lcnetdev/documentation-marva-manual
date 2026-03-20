@@ -17,7 +17,7 @@ There are four components in the Marva Work entity that use Hubs:
 
 ---
 
-## Sources for Hubs
+## Sources of Hubs
 
 Hubs are created from MARC Authority and Bibliographic data, and may also be created in Marva.
 
@@ -58,27 +58,27 @@ From the Folio bibliographic database, Hubs are generated from:
 
 ---
 
-## Technical Discussion of Hubs from the Network Development and MARC Standards Office
+## Technical Details from NDMSO
 
-### Hubs Revisited
-
-One can approach Bibframe Hubs from a theoretical perspective, i.e. one that references principles of library and information science theory, or from a practical perspective, perhaps by describing how they relate to current MARC practice.
+One can approach Bibframe Hubs from a theoretical perspective, one that references principles of library and information science theory, or from a practical perspective, perhaps by describing how they relate to current MARC practice.
 
 ### Collocation
 
-The latter is often marginally more successful. Hubs are the functional Bibframe equivalent of MARC Title and Name-Title Authorities (1XX+$t or 130), Main Entry and/or Uniform Title combinations (1XX+240, 130) in the MARC Bibliographic format, or Access Points (6XX+$t, 630, 7XX+$t, 730, 8XX+$t, 830) in the MARC Bibliographic format. Although Name-Title and Title Authority records in MARC have some form of distinct identity, by virtue of being individually identified records in the LC/NACO file, Main Entries plus Uniform Titles and Access Points in MARC bibliographic records are handled purely as strings, even though there has been a way to record the identifier of any related Authority record since 2008. Sometimes the Main Entries, Uniform Titles, and Access Points in MARC bibliographic records correspond with an entry in the LC/NACO file, but sometimes they do not. It is possible to determine a match, or not, by taking the subfield-concatenated string in the bibliographic record and comparing it against the LC/NACO file. Easily one third of the Main Entries, Uniform Titles, and Access Points in the Library of Congress bibliographic file are not represented by a MARC Authority record in the LC/NACO file. (It may be closer to 50%.)
+The latter is often more successful. Hubs are the functional Bibframe equivalent of MARC Title and Name-Title Authorities (1XX+$t or 130), Main Entry and/or Uniform Title combinations (1XX+240, 130) in the MARC Bibliographic format, or Access Points (6XX+$t, 630, 7XX+$t, 730, 8XX+$t, 830) in the MARC Bibliographic format. 
 
-The carefully constructed strings in MARC Title and Name-Title authorities -- indeed, the reason behind developing an authority file more generally - and Main Entries plus Uniform Titles and Access Points in MARC bibliographic records have traditionally been used for collocation. In physical card catalogs and later online systems, these strings made it possible to cluster information items. Current Library of Congress cataloging policies and use of these headings facilitate collocation.
+Name-Title and Title Authority records in MARC have some form of distinct identity, by virtue of being individually identified records in the LC/NACO file. Main Entries plus Uniform Titles and Access Points in MARC bibliographic records are handled purely as strings, even though there has been a way to record the identifier of any related Authority record since 2008. Sometimes the Main Entries, Uniform Titles, and Access Points in MARC bibliographic records correspond with an entry in the LC/NACO file, but sometimes they do not. It is possible to determine a match/non-match by taking the subfield-concatenated string in the bibliographic record and comparing it against the LC/NACO file. At least one third of the Main Entries, Uniform Titles, and Access Points in the Library of Congress bibliographic file are *not* represented by a MARC Authority record in the LC/NACO file.
+
+The strings in MARC Title and Name-Title authorities, along with Main Entries plus Uniform Titles and Access Points in MARC bibliographic records, have traditionally been used for collocation. In both card catalogs and online systems, these strings made it possible to cluster items. Current Library of Congress cataloging policies and use of these headings facilitate collocation.
 
 ### Identifiers as Strings
 
-The focus, thus far, has been on how these carefully constructed lexical strings, composed, minimally, of a normalized form of a name (if appropriate) and a normalized form of the title, function in MARC, where much of the functionality these headings enable is based on string matching or viewing browse lists of these strings. The strings are the identifiers.
+The focus has been on how these lexical strings, composed, minimally, of a normalized form of a name (if appropriate) and a normalized form of the title, function in MARC, where much of the functionality these headings enable is based on string matching or viewing browse lists of these strings. The strings are the identifiers.
 
 ### Strings to URI Identifiers
 
-But Bibframe is a data format that uses pure identifiers (URIs, ...), not lexical strings, to identify resources. The string is secondary. In the simplest of explanations, the strings used in MARC were wrapped in a resource called a Hub and then the Hub given an identifier, an HTTP URI.
+But Bibframe is a data format that uses pure identifiers (URIs), not lexical strings, to identify resources. The string is secondary. In the simplest of explanations, the strings used in MARC were wrapped in a resource called a Hub and then the Hub given an identifier, an HTTP URI.
 
-An example, in RDF/XML, of one these resources:
+An example of one these resources:
 
 ```xml
 <bf:Hub rdf:about="http://id.loc.gov/resources/hubs/4978c720-ca4f-ca86-2d7e-a15f8245ade9">
@@ -104,9 +104,11 @@ An example, in RDF/XML, of one these resources:
 </bf:Hub>
 ```
 
-Although the creator (Homer), title (Odyssey), and language (English) have been broken into distinct elements and identifiers, URIs, added for creator and language, the AAP (short for Authorized Access Point) near the top retains the carefully constructed string used in MARC cataloging. Although this example has been pruned of a few variant titles and a few notes for the sake of succinctness, Hubs are designed to be fairly lightweight. They are an essential component of the ecosystem, but not the main focus of the cataloger's attention, nor of the user.
+Although the creator (Homer), title (Odyssey), and language (English) have been broken into distinct elements, and identifiers, URIs, added for creator and language, the AAP (short for Authorized Access Point) retains the carefully-constructed string used in MARC cataloging. Although this example has been pruned of a few variant titles and a few notes for the sake of succinctness, Hubs are designed to be fairly lightweight. They are an essential component of the ecosystem, but not the main focus of the cataloger's attention, nor of the user.
 
-In Bibframe, since this Hub has an identifier, it is possible to link to the Hub (and it is also possible to link the Hub to other resources). With all of the potential incoming and outgoing links, the Hub functions very much as its name implies -- it is a Hub with many spokes connected to other resources. And it is therefore also possible to aggregate all the versions of Homer's Odyssey in English in precisely the way the controlled string functions in MARC. This is why Hubs have always been described as aggregators and why they functionally serve the same collocation purpose of the Title and NameTitle Authorities, Main Entries plus Uniform Titles, and Access Points in MARC.
+In Bibframe, since this Hub has an identifier, it is possible to link to the Hub. It is also possible to link the Hub to other resources
+
+With all of the incoming and outgoing links, the Hub functions very much as its name implies -- it is a Hub with many spokes connected to other resources. And it is therefore also possible to aggregate all the versions of Homer's Odyssey in English in precisely the way the controlled string functions in MARC. This is why Hubs have always been described as aggregators and why they functionally serve the same collocation purpose of the Title and NameTitle Authorities, Main Entries plus Uniform Titles, and Access Points in MARC.
 
 ### Hub as Collocator
 
