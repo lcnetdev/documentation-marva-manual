@@ -6,11 +6,10 @@ This area is used for the person(s), family(ies), corporate body(ies), jurisdict
 
 ## Folio / MARC
 
+- 1XX field (Primary contributor/Creator only)
 - 7XX field(s)
 
 ## Contributors
-
-Select the appropriate category from the drop-down list.
 
 ![Contributors drop-down showing Person, Family, Corporate body, Jurisdiction, Conference options](../images/page021_img01.png)
 
