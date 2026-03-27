@@ -11,6 +11,7 @@ This area is used for the person(s), family(ies), corporate body(ies), jurisdict
 
 ## Contributors
 
+![Creator drop-down showing Person, Corporate body, Conference, Jurisdiction, Family options](../images/image-1774624823689.png)
 ![Contributors drop-down showing Person, Family, Corporate body, Jurisdiction, Conference options](../images/page021_img01.png)
 
 The available categories are:
@@ -42,6 +43,8 @@ When you have identified the correct name, click on **Add [Shift+Enter]**.
 The URI associated with the name will be added to Marva.
 
 ![Contributors showing linked corporate body name with "Linked" indicator](../images/page022_img03.png)
+
+If the heading does not exist in the LCNAF, see [Creating Name Authority Records (NARs)](../Marva%20tools/f-creating-nar.md) for the procedure to create an authority record within Marva.
 
 ## Relationship Designator
 
