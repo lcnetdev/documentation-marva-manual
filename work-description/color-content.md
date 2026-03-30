@@ -7,6 +7,7 @@ This component is used to identify the presence of color illustrations in the Wo
 ## Folio / MARC
 
 - 300 subfield $b, Other physical details
+- 340 subfield $g
 
 ## Color Content
 
