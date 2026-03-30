@@ -8,6 +8,7 @@ This component is used to identify the presence of bibliographies, indexes, etc.
 
 - 008/24-27, Nature of Contents
 - 008/31, Index
+- 353 subfield $a
 
 ## Supplementary Content
 
