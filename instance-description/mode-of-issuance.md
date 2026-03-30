@@ -7,6 +7,7 @@ This component is a categorization reflecting whether an Instance is issued in o
 ## Folio / MARC
 
 - Ldr/07, Bibliographic level
+- 344 field, Mode of Issuance
 
 ## Mode of Issuance
 
