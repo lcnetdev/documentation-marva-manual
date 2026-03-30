@@ -7,6 +7,7 @@ This component is used to identify the presence of illustrations in the Work.
 ## Folio / MARC
 
 - 008/18-21, Illustrations
+- 340 $p
 
 ## Illustrative Content
 
