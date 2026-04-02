@@ -23,6 +23,7 @@ This documentation is a Markdown conversion of the Library of Congress Marva Qua
 - [Marva History Log](Marva%20tools/marva-history-log.md)
 - [MLC Number Generator](./Marva%20tools/mlc-numbers.md)
 - [User Directory](Marva%20tools/user-directory.md)
+- [Yoshino Subject Pilot](./Marva tools/yoshino-pilot.md)
 
 ## Workflows
 
