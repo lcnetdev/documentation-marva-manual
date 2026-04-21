@@ -2,13 +2,11 @@
 
 ## Scope
 
-This area is used for the Title Proper of the Work. Title information does not include Other Title Information.
+This area is used for the Title Proper of the Work.
 
 ## Folio / MARC
 
-- 245 subfield $a title
-
-If there is a numerical or part designation in the title, Title information in Marva will also use the 245 subfield $n and/or subfield $p.
+- 245 field
 
 ## Work Title
 
@@ -20,6 +18,8 @@ The Title information component offers these title types:
 - Variant title
 - Parallel title
 
+![Work title information](../images/image-1776803033506.png)
+
 ## Non-sort Character Count
 
 If there is an initial article or any other non-sort values that need to be accounted for, select the non-filing value count from the drop-down list.
@@ -30,21 +30,8 @@ In Folio, this is 245 indicator 2.
 
 ## Title
 
-Transcribe the Title Proper. This is a literal value so there is no lookup. Do not use ISBD punctuation.
-
-![Title information showing title "The wisdom of coaching" with non-sort character count 4](../images/page019_img01.png)
-
-## Part Number
-
-Transcribe the Part number, if needed. This is a literal value so there is no lookup. Do not use ISBD punctuation.
-
-## Part Name
-
-Transcribe the Part name, if needed. This is a literal value so there is no lookup. Do not use ISBD punctuation.
-
-![Title information with Part number "Part 1" and Part name "Seconds to eternity"](../images/page019_img02.png)
-
-To modify the information in this component, highlight the text and press the delete or backspace key. Since these are literal values, treat them as regular text.
+Transcribe the Title Proper. This is a literal value so there is no lookup.
+![Title information showing title "The wisdom of coaching" with non-sort character count 4](../images/image-1776803105950.png)
 
 ## July 2025 Best Practice for Recording Parallel Titles and Variant Titles
 
@@ -54,7 +41,7 @@ If you want to record a Parallel title or a Variant title that is different from
 
 Clicking on the lightning bolt button in the far right of a field will open a menu with options:
 
-![Lightning bolt menu showing all available options](../images/page020_img01.png)
+![Lightning bolt menu showing all available options](../images/image-1776803231271.png)
 
 - **Add Another Component**: repeats the entire component. In this example, another Title information component will be added. Keep in mind that some components would not be repeated, though. There can only be one Creator of Work, for example.
 - **Delete Component**: deletes the entire component.
