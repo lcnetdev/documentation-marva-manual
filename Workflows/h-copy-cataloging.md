@@ -96,6 +96,19 @@ A prompt will ask if you want to continue with the merge.
 
 ![Confirmation dialog: There is a record with the LCCN already. If you continue, the Copy Cat record will be merged with it. Do you want to continue?](../images/page171_img02.png)
 
+
+### Comparing Records
+
+Once you select the profile to use with the record, Marva will display a screen that shows the MARC for the CopyCat record and the MARC for the existing record side by side.
+
+This is one more chance to make sure that if Marva is going to overlay a record, it will be the correct record.
+
+![Record Comparison CopyCat and Existing](../images/image-1777403043559.png)
+
+If everything looks good, select "Continue" at the bottom. Otherwise, select "Cancel" to go back.
+
+If there is no existing record, this screen will still show up but the right side will be empty and the message on the bottom will be different.
+
 ### Editing the Imported Record in Marva
 
 Marva will import the PccAdapt record and overlay it on the existing record.
