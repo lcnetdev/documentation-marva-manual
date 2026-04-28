@@ -59,5 +59,5 @@ If you've created a custom layout in Marva, you can turn it on with a shortcut. 
 They follow the pattern `ctrl+<number>`.
 To turn off an active layout, use `ctrl+backspace`
 
-Information on [Creating Layouts](../configuration/layouts.md)
+Information on [Creating Layouts](../Configuration/layouts.md)
 
