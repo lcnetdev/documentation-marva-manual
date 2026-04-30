@@ -51,7 +51,7 @@ If there is other title information for the title, transcribe it here. Do not us
 
 When there is Other title information in the instance title there will be a second option, "Send Subtitle to Work Variant" that will create a variant title in the work with the information
 
-!["Send Subtitle to Work Variant" that will create a variant title in the work with the information](../images/Picture16.png)
+!["Send Subtitle to Work Variant" that will create a variant title in the work with the information](../images/image-1777565663355.png)
 
 There can only be one Instance title. If you need to record a Parallel title or a Variant title, add a new Title component in the [Work description](../work-description/) and select the appropriate value. Parallel titles and Variant titles are recorded in the Work description. Titles that are dependent on a location, such as a Spine title or a Caption title, are recorded in the Instance description.
 
