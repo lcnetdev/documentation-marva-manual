@@ -8,11 +8,14 @@ Marva has some shortcuts to help with different actions.
 
 The action button, found at the end of a field in Marva, contains a lot of functionality.
 
+Action button can be access with `ctrl+\`.
+
 Some of these have shortcuts listed to the left of the action, if it has one.
 
 ![Action menu with shortcut key highlighted](../images/image-1773751543767.png)
 
 With the action menu open, press the key indicated and the action will be performed.
+
 
 ---
 
