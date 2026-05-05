@@ -2,6 +2,8 @@
 
 This documentation is a Markdown conversion of the Library of Congress Marva Quartz User Manual (PDF). Marva is the Library of Congress's web-based BIBFRAME cataloging editor used to create, edit, and manage bibliographic descriptions.
 
+Contact the manual [editors](<mailto:jowill@loc.gov;cbarna@loc.gov?subject=Marva manual request>) to suggest additions and updates.
+
 ---
 
 ## Introduction
