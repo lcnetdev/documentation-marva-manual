@@ -1,6 +1,6 @@
-# About the Library of Congress Marva Quartz User Manual
+# About the Library of Congress Marva User Manual
 
-The Library of Congress Marva Quartz User Manual is an integrating resource that is updated regularly. Marva, BIBFRAME, and current LC policies are constantly being changed and reviewed as BFProd moves forward.
+The Library of Congress Marva User Manual is an integrating resource that is updated regularly. Marva, BIBFRAME, and current LC policies are constantly being changed and reviewed.
 
 Contact the manual [editors](<mailto:jowill@loc.gov;cbarna@loc.gov?subject=Marva manual request>) to suggest additions and updates.
 
