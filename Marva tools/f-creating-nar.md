@@ -6,8 +6,6 @@ BIBFRAME and linked data work on the principle of providing actionable URIs for 
 
 But the Create NAR function in Marva may be used for any situation where a new name authority record is needed.
 
-All instructions and policies that apply to NAR creation in MARC apply in Marva. Follow the guidance in the RDA Toolkit, the LC-PCC Policy Statements, the Descriptive Cataloging Manual Z1, Name and Series Authority Records, and the LC Guidelines Supplement to the MARC 21 Format for Authority Data.
-
 ---
 
 ## Accessing the Create NAR Function
