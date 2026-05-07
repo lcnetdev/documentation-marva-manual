@@ -16,7 +16,7 @@ Testing possible workflows and use cases for scanning resources with mobile phon
 ## Workflows
 
 1. **You have a book in hand and want to get some printed information from the book into Marva. Calling this "Live Mode"**
-    - [Watch a video of this workflow (4min)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-demo-with-phone.mp4)
+    - [Watch a video of this workflow (4min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-demo-with-phone.mp4)
     - Basic Flow:
       - Open Marva Scan in Marva
       - If your phone is already on the Marva Scan mobile page Scan the QR code OTHERWISE use your phone's native camera open the QR code
@@ -26,7 +26,7 @@ Testing possible workflows and use cases for scanning resources with mobile phon
 
 
 2. **You have a stack of books to be worked at some later point. You want to scan the book in a row to have the data and scans available to you later in Marva when you work that record. Calling this "Offline Mode"**.
-    - [Watch a video of this workflow (7min)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-offline-demo-with-phone.mp4)
+    - [Watch a video of this workflow (7min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-offline-demo-with-phone.mp4)
     - Basic Flow:
       - If your phone is already on the Marva Scan mobile page press "Back" and "Home" to get to the the option to select "Off-line mode"
       - If your phone is not already on the Marva scan mobile page open the page on your phone via the QR code in the Marva Scan window, then press "Back" and "Home" to get to the page where you can select "Offline capture"
