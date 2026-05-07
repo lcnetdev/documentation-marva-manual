@@ -6,8 +6,9 @@ Testing possible workflows and use cases for scanning resources with mobile phon
 ⚠️ We don't have LC devices to test with, if using your personal device make sure to be on WiFi to prevent cell data usage. 
 
 ## Areas of Testing
+- Is this even useful? Is there ever printed information only in the resource in hand that is not in the record, oclc, booksellers, etc. already?
 - Do the workflows below make sense? Are they based in reality and how people work? What workflows are missing?
-- What Data Patterns are missing and should be added?
+- What Data Patterns below are missing and should be added?
 - How does it work with non-Latin resources? (what changes need to be made to the prompt to better extract data)
 - Does it make any mistakes? 
 - Other comments / ideas welcome.
@@ -44,6 +45,7 @@ Testing possible workflows and use cases for scanning resources with mobile phon
 - Other Contributors and their roles (from title_page, does not reconcile name to LCCN)
 - Summary (from back_cover scans or summary scans)
 - Contents (from toc scans)
+- What else?
 
 
 ## Basics
@@ -74,4 +76,14 @@ If there are scans and data processed it will show you components you can review
 ### Images Tab
 You can access previous scans from this tab, a mangifying glass widget enlarges where you move your mouse cursor.
 ![image](../images/image-1778164700944.png)
+
+## The Mobile Page
+
+The mobile page scanning tool is pretty self-explanatory, watch the videos above to see it, but some things to remember:
+ 
+1. You need to get the phone to the webpage, the easiest way is to use your native camera to open the QR code. Even if you want to do offline captures you can still use any QR code generated to get your phone to the site and the use the "Back" and "Home" buttons to get to the menu.
+2. The scans don't need to be perfect, it does a good job at extracting data as long as the text is large enough.
+3. All of the page buttons take one image and overwrites the last one of that category, so if you take a bad back cover image, just take another and it will replace the last one.
+4. There is one Multi-Page mode for table of contents (TOC) page type. For this page type you click the button to take the first image, the counter will appear at the bottom of the page, turn the page, take the next picture, repeat as needed, then click "send all" to upload the group.
+
 
