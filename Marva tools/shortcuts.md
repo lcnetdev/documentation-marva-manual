@@ -32,6 +32,12 @@ When working on a subject, the  different search options at the top of the searc
 
 ---
 
+## Changing Text
+- Open Find & Replace: `ctrl+alt+h`
+- Change highlighted text to title case: `ctrl+alt+t`
+
+---
+
 ## Save, Undo, Redo
 
 Marva has the ability to save with a shortcut as well as undo a change and redo a change.
