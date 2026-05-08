@@ -168,7 +168,7 @@ If you do not find the Hub that is needed:
 
 ![Lightning bolt menu showing Create Hub option for Hub as subject](../images/page033_img02.png)
 
-See [Appendix E: Hubs](../appendices/e-hubs.md) for more information.
+See [Hubs](../Reference/e-hubs.md) for more information.
 
 ---
 
