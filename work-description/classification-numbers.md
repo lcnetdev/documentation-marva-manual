@@ -117,9 +117,8 @@ In traditional MARC bibliographic records, alternate class numbers appear in a s
 
 **Example:** `050 00  $a Z7914.C75 $b J34 1984 $a T385`
 
-When a traditional MARC bibliographic record with an alternate classification number is imported into Marva, the alternate classification number will appear in its own Classification component, and the Modern MARC record will record the alternate classification number in a separate 050 field with both indicators set to 00.
-
-![Alternate classification numbers showing Z7037 and PK1701 with ClassWeb links and MARC output](../images/page044_img01.png)
+When a traditional MARC bibliographic record with an alternate classification number is imported into Marva, the alternate classification number will appear in its own Classification component, and the Modern MARC record will record the alternate classification number in a separate 050 field with the first indicator set to "1" and the second indicator set to "0".
+![Alternate classification numbers showing Z7057 and PK1701 with ClassWeb links and MARC output](../images/image-1778595858944.png)
 
 ---
 
