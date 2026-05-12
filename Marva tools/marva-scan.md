@@ -21,6 +21,7 @@ Testing possible workflows and use cases for scanning resources with mobile phon
     - Open Marva Scan in Marva
     - Select Webcamera option at the top of the screen, grant access to the correct web camera.
     - Use the buttons below the preview camera view to add data from specific pages.
+  - Web Camera quality: I've found the web camera should be at least 12 mega pixels (MP) and auto focus. I tested with this [webcam](https://www.amazon.com/dp/B0F8B2GC5H?ref=ppx_yo2ov_dt_b_fed_asin_title) and it works well.
 
 1.2 **Phone: You have a book in hand and want to get some printed information from the book into Marva. Calling this "Live Mode"**
   - [Watch a video of this workflow (4min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-demo-with-phone.mp4)
