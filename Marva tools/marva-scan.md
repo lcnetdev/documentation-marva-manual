@@ -1,7 +1,7 @@
 # Marva Scan Experiment
 
 
-Testing possible workflows and use cases for scanning resources with mobile phone. Marva Scan connects your phone (or previous scans made with it) to the record you are editing. It uses a visual LLM to extract structured data from images taken with the phone.
+Testing possible workflows and use cases for scanning resources with mobile phone OR web camera. Marva Scan connects your phone OR web camera (or previous scans made with it) to the record you are editing. It uses a visual LLM to extract structured data from images taken with the phone.
 
 ⚠️ We don't have LC devices to test with, if using your personal device make sure to be on WiFi to prevent cell data usage. 
 
@@ -15,25 +15,32 @@ Testing possible workflows and use cases for scanning resources with mobile phon
 
 ## Workflows
 
-1. **You have a book in hand and want to get some printed information from the book into Marva. Calling this "Live Mode"**
-    - [Watch a video of this workflow (4min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-demo-with-phone.mp4)
-    - Basic Flow:
-      - Open Marva Scan in Marva
-      - If your phone is already on the Marva Scan mobile page Scan the QR code OTHERWISE use your phone's native camera open the QR code
-      - The mobile webpage will open and be connected to your Marva record
-      - Use the buttons at the bottom of the mobile page (Back Cover, Cover, Title Page, etc) to take images of the specified page.
-      - The data and scans will appear in your Marva editor window
+1.1 . **Webcam: You have a book in hand and want to get some printed information from the book into Marva. Calling this "Live Mode"** 
+  - [Watch a video of this workflow (3min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-webcam-demo.mp4)
+  - Basic Flow:
+    - Open Marva Scan in Marva
+    - Select Webcamera option at the top of the screen, grant access to the correct web camera.
+    - Use the buttons below the preview camera view to add data from specific pages.
+
+1.2 **Phone: You have a book in hand and want to get some printed information from the book into Marva. Calling this "Live Mode"**
+  - [Watch a video of this workflow (4min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-demo-with-phone.mp4)
+  - Basic Flow:
+    - Open Marva Scan in Marva
+    - If your phone is already on the Marva Scan mobile page Scan the QR code OTHERWISE use your phone's native camera open the QR code
+    - The mobile webpage will open and be connected to your Marva record
+    - Use the buttons at the bottom of the mobile page (Back Cover, Cover, Title Page, etc) to take images of the specified page.
+    - The data and scans will appear in your Marva editor window
 
 
 2. **You have a stack of books to be worked at some later point. You want to scan the book in a row to have the data and scans available to you later in Marva when you work that record. Calling this "Offline Mode"**.
-    - [Watch a video of this workflow (7min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-offline-demo-with-phone.mp4)
-    - Basic Flow:
-      - If your phone is already on the Marva Scan mobile page press "Back" and "Home" to get to the the option to select "Off-line mode"
-      - If your phone is not already on the Marva scan mobile page open the page on your phone via the QR code in the Marva Scan window, then press "Back" and "Home" to get to the page where you can select "Offline capture"
-      - This mode has a barcode scanner viewer, it should work with LCCN stickers and ISBN back cover barcodes.
-      - Once a barcode is scanned it will give you the camera interface with the buttons at the bottom, take your scans pictures using the appropriate button.
-      - When done click "New book" at the bottom to start with a new book (it will return to the barcode scanner camera)
-      - Next time you are in Marva and that LCCN or ISBN scanned is associated with the resource it will show your scans and data in the Marva Scan window.
+  - [Watch a video of this workflow (7min, audio narration)](https://thisismattmiller.s3.us-east-1.amazonaws.com/marva-scan-offline-demo-with-phone.mp4)
+  - Basic Flow:
+    - If your phone is already on the Marva Scan mobile page press "Back" and "Home" to get to the the option to select "Off-line mode"
+    - If your phone is not already on the Marva scan mobile page open the page on your phone via the QR code in the Marva Scan window, then press "Back" and "Home" to get to the page where you can select "Offline capture"
+    - This mode has a barcode scanner viewer, it should work with LCCN stickers and ISBN back cover barcodes.
+    - Once a barcode is scanned it will give you the camera interface with the buttons at the bottom, take your scans pictures using the appropriate button.
+    - When done click "New book" at the bottom to start with a new book (it will return to the barcode scanner camera)
+    - Next time you are in Marva and that LCCN or ISBN scanned is associated with the resource it will show your scans and data in the Marva Scan window.
 
 
 ## Data Patterns Extracted:
