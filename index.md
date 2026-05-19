@@ -33,7 +33,7 @@ Contact the manual [editors](<mailto:jowill@loc.gov;cbarna@loc.gov?subject=Marva
 - [Creating a New Hub](Workflows/create-hub.md)
 - [Copy Cataloging](Workflows/h-copy-cataloging.md)
 - [Creating New Descriptions](Workflows/j-creating-new-descriptions.md)
-- [Save](Workflows/Saving%20and%20posting%20a%20record.md)
+- [Save, Validate, and Post](Workflows/Saving%20and%20posting%20a%20record.md)
 
 ## Work Description
 
