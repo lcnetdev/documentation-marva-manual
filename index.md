@@ -117,6 +117,5 @@ Workflows
 work-description
 instance-description
 Reference
-appendices
 hidden
 -->
