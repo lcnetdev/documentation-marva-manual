@@ -16,6 +16,7 @@ Contact the manual [editors](<mailto:jowill@loc.gov;cbarna@loc.gov?subject=Marva
 
 - [Preferences and Customization](Configuration/a-preferences-customization.md)
 - [Using the Component Library](Configuration/b-component-library.md)
+- [Layouts](Configuration/layouts.md)
 
 ## Marva Tools
 
@@ -27,10 +28,14 @@ Contact the manual [editors](<mailto:jowill@loc.gov;cbarna@loc.gov?subject=Marva
 - [User Directory](Marva%20tools/user-directory.md)
 - [FOLIO Sync Info](./Marva%20tools/folio-sync.md)
 - [Yoshino Subject Pilot](./Marva%20tools/yoshino-pilot.md)
+- [Find and Replace](./Marva%20tools/find-replace.md)
+- [Marva Scan](./Marva%20tools/marva-scan.md)
+- [Marva Shortcuts](./Marva%20tools/shortcuts.md)
 
 ## Workflows
 
 - [Creating a New Hub](Workflows/create-hub.md)
+- [Editing Hubs](Workflows/Editing%20a%20hub.md)
 - [Copy Cataloging](Workflows/h-copy-cataloging.md)
 - [Creating New Descriptions](Workflows/j-creating-new-descriptions.md)
 - [Save, Validate, and Post](Workflows/Saving%20and%20posting%20a%20record.md)
@@ -97,7 +102,7 @@ See the [Instance Description overview](instance-description/index.md) for a ful
 
 ## Reference
 
-- [Appendix D: Re-Merge MARC](Reference/d-remerge-marc.md)
+- [When to Re-Merge MARC records](Reference/d-remerge-marc.md)
 - [Hubs](Reference/e-hubs.md)
 - [MARC to Marva Mappings](Reference/g-marc-to-marva-mappings.md)
 - [Searching Related Works and Hubs](Reference/searching-works-hubs.md)
