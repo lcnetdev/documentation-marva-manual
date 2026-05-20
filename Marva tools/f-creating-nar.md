@@ -4,7 +4,7 @@ The ability to create a new name authority record (NAR) in Marva was added in Ap
 
 BIBFRAME and linked data work on the principle of providing actionable URIs for data. When an authorized access point in name authority record from the LC/NACO Authority File is used as a Creator or Contributor in Marva, a link to the URI associated with the name is added. In some cases, a name authority record in the LC/NACO Authority File will not exist for a Creator or Contributor. Minimal Level Cataloging (MLC) practices allow an access point for a Creator or Contributor to be provided without creating a supporting name authority record, as long as the access point is unique within the LC/NACO Authority File. The ability to create a name authority record in Marva was added with MLC in mind, so that these uncontrolled access points could be brought under authority control and be assigned an actionable URI.
 
-But the Create NAR function in Marva may be used for any situation where a new name authority record is needed.
+The Create NAR function in Marva may be used for any situation where a new name authority record is needed.
 
 ---
 
