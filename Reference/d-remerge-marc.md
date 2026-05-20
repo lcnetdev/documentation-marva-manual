@@ -1,4 +1,4 @@
-# Appendix D: Instructions for Determining When to Re-Merge a Modern MARC Record Due to Missing or Modified Information
+# When to Re-Merge a Modern MARC Record Due to Missing or Modified Information
 
 Modern MARC records contain URIs for a significant portion of the data, with most of these URIs generated at the Work level. The exceptions to this are the 334 field (Mode of Issuance), 337 field (Media Type) and 338 field (Carrier Type), which are at the Instance level and generate URIs.
 
