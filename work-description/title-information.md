@@ -35,7 +35,7 @@ Transcribe the Title Proper. This is a literal value so there is no lookup.
 
 ## July 2025 Best Practice for Recording Parallel Titles and Variant Titles
 
-If you want to record a Parallel title or a Variant title that is different from the Preferred title for Work, you can add new Work Title information components for the titles. Do not use ISBD punctuation. Keep in mind that titles associated with a location, such as Spine title, Caption title, or Binder title, are more appropriate as Instance Title variants.
+If you want to record a Parallel title or a Variant title that is different from the Preferred title for Work, you can add new Work Title information components for the titles. Do not use ISBD punctuation. All Parallel titles should be recorded as variant titles. Keep in mind that titles associated with a location, such as Spine title, Caption title, or Binder title, are more appropriate as Instance Title variants.
 
 ## Title: Lightning Bolt Menu
 
