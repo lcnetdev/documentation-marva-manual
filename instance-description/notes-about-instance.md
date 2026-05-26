@@ -4,7 +4,7 @@
 
 **Notes in Marva are in flux. Most Notes will be recorded in the Instance description, not in the Work description. In Folio / MARC, each 5XX note has a specific definition. Being aware of the definition will help determine where the note goes, with the [Work description](../work-description/), or with the Instance description.**
 
-For now (February 2025), only record Notes relating to the **language** of the Work in this component in Marva. All other notes are recorded in the Instance description.
+Record Notes relating to the **language** of the Work in this component in Marva. All other notes are recorded in the Instance description.
 
 ## Folio / MARC
 
