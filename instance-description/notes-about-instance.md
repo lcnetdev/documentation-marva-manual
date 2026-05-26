@@ -9,6 +9,7 @@ Record Notes relating to the **language** of the Work in this component in Marva
 ## Folio / MARC
 
 - 5XX fields, Note Fields
+- 300 field, subfield $e, Accompanying material
 
 ## Note
 
@@ -47,7 +48,9 @@ Notes that have a unique Note type value must appear in separate components.
 
 ![Notes about the Instance with Add Another Component action button highlighted, showing how to create additional note components](../images/page093_img02.png)
 
-![Example showing separate Notes about the Instance components: one with Note type "physical details" for "ill. (chiefly col.)", and another with multiple general notes and no Note type, plus a separate component with Note type "bibliography" for bibliographical references](../images/page093_img0.png)
+Accompanying material that is placed in the MARC 300 $e field is treated as a note on Instance in Marva.
+
+![Notes about the Instance component showing "1 audio disc (4 3/4 in.)" as the note text and "accompanying material" as the Note type.](../images/image-1779810365581.png)
 
 ---
 
