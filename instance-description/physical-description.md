@@ -34,7 +34,7 @@ You do not need to use the "Note type: physical details" field for information t
 
 ## Accompanying material
 
-Accompanying material that is placed in the MARC 300 $e field is treated as a note on Instance in Marva.
+Accompanying material that is placed in the MARC 300 $e field is treated as a note on the Instance in Marva.
 
 ![Notes about the Instance component showing "1 audio disc (4 3/4 in.)" as the note text and "accompanying material" as the Note type.](../images/image-1779810365581.png)
 
