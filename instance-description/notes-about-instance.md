@@ -48,7 +48,7 @@ Notes that have a unique Note type value must appear in separate components.
 
 ![Notes about the Instance with Add Another Component action button highlighted, showing how to create additional note components](../images/page093_img02.png)
 
-Accompanying material that is placed in the MARC 300 $e field is treated as a note on Instance in Marva.
+Accompanying material that is placed in the MARC 300 $e field is treated as a note on the Instance in Marva.
 
 ![Notes about the Instance component showing "1 audio disc (4 3/4 in.)" as the note text and "accompanying material" as the Note type.](../images/image-1779810365581.png)
 
