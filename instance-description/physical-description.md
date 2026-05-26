@@ -8,6 +8,7 @@ Physical description includes the Extent of the resource as well as Other physic
 
 - 300 field, subfield $a, Extent
 - 300 field, subfield $b, Other physical details
+- 300 field, subfield $e, Accompanying material
 
 ## Extent
 
@@ -31,6 +32,10 @@ Use this field for recording illustrative content if considered important for id
 
 You do not need to use the "Note type: physical details" field for information that would be recorded in the MARC 300 field subfield $b, Other physical details. The system will automatically generate the MARC 300 field even if a physical details note is not manually entered.
 
----
+## Accompanying material
+
+Accompanying material that is placed in the MARC 300 $e field is treated as a note on Instance in Marva.
+
+![Notes about the Instance component showing "1 audio disc (4 3/4 in.)" as the note text and "accompanying material" as the Note type.](../images/image-1779810365581.png)
 
 [Back to Table of Contents](../index.md)
