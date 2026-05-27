@@ -27,9 +27,9 @@ Contact the manual [editors](<mailto:jowill@loc.gov;cbarna@loc.gov?subject=Marva
 - [MLC Number Generator](./Marva%20tools/mlc-numbers.md)
 - [User Directory](Marva%20tools/user-directory.md)
 - [FOLIO Sync Info](./Marva%20tools/folio-sync.md)
-- [Yoshino Subject Pilot](./Marva%20tools/yoshino-pilot.md)
+- [Subject Finder Pilot](./Marva%20tools/yoshino-pilot.md)
 - [Find and Replace](./Marva%20tools/find-replace.md)
-- [Marva Scan](./Marva%20tools/marva-scan.md)
+- [Marva Scan Experiment](./Marva%20tools/marva-scan.md)
 - [Marva Shortcuts](./Marva%20tools/shortcuts.md)
 
 ## Workflows
