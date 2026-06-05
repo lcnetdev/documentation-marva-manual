@@ -44,6 +44,16 @@ The URI associated with the name will be added to Marva.
 
 ![Contributors showing linked corporate body name with "Linked" indicator](../images/page022_img03.png)
 
+## Keyword search
+
+The LCNAF can also be searched via keywords. There are two options:
+
+1. Add a question mark (?) to the left-anchored search.
+![LCNAF search for 'khan, said' followed by a question mark that shows keyword search results](../images/image-1780673296662.png)
+
+2. Select the "Keyword" search instead of the "Left anchored" search.
+![LCNAF search for 'john williams' using the Keyword search option](../images/image-1780673432174.png)
+
 If the heading does not exist in the LCNAF, see [Creating Name Authority Records (NARs)](../Marva%20tools/f-creating-nar.md) for the procedure to create an authority record within Marva.
 
 ## Relationship Designator
