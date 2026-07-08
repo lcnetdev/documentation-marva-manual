@@ -1,14 +1,15 @@
-# Search Related Work
+# Search Related Work/Series
 
 ## Scope
 
-This is a lookup search for identifying Works that are related to the Work being cataloged.
+This is a lookup search for identifying Works or Series that are related to the Work being cataloged. Although LC policy does not require controlled access points for series, this search is optional. But in a linked data environment, there is value in the ability to point to an actionable URI for the series heading.
 
 ## Folio / MARC
 
-- 7XX fields, Added Entry Fields and Linking Entry and Description Fields.
+- 7XX fields, Added Entry Fields and Linking Entry and Description Fields
+- 8XX fields, Series Added Entry
 
-## Search Related Work
+## Search Related Work/Series
 
 Related work is a core element for LC for compilations. Often the core requirement can be met by recording related works in a contents note. In some cases, a more structured access point needs to be given to record a related work. When a more structured access point is needed for a related work, use the Search related work option in Marva.
 
@@ -45,7 +46,7 @@ Use a **Work** when you want to identify a specific manifestation in a Linking E
 
 ## Relationship Designator
 
-This is a drop-down list. Select the appropriate value. The default value is "part" which means that the related work is included in the Work you are describing (this is also called an analytical added entry). If you are recording a related work that is **not** included in the Work you are describing, for example, a Work that is the inspiration for the Work you are describing, or a predecessor Work to the Work you are describing, use the appropriate relationship designator from the drop-down list.
+This is a drop-down list. Select the appropriate value. Usually, analytical added entries have the relationship "part", and series headings have the relationship "series." If you are recording a related work that is **not** included in the Work you are describing, for example, a Work that is the inspiration for the Work you are describing, or a predecessor Work to the Work you are describing, use the appropriate relationship designator from the drop-down list.
 
 If you want to search for an additional related Work, add an additional component.
 
