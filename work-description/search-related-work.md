@@ -42,6 +42,11 @@ Use a **Work** when you want to identify a specific manifestation in a Linking E
 
 ![Works-Left Anchored search for Pascoe, Judith showing Work detail panel with variant titles and subjects](../images/page064_img02.png)
 
+## Series enumeration (if applicable)
+
+Record a designation of the sequencing of a part or parts within a series in this field. Use the structured value as indicated in the authority record or Hub.
+
+![Series enumeration field showing volume 3](../images/image-1783617482866.png)
 
 ## Relationship Designator
 
