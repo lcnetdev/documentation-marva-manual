@@ -25,8 +25,7 @@ The Work Description section of Marva contains all the components used to descri
 | [Supplementary Content](supplementary-content.md) | Bibliographies, indexes, etc. | 008/24-27, 008/31 |
 | [Government Publication](government-publication.md) | Government involvement | 008/29 |
 | [Input Transcribed Series](input-transcribed-series.md) | Transcribed series statement | 490 |
-| [Search Series Hub (optional)](search-series-hub.md) | Controlled series access point | 8XX |
-| [Search Related Work](search-related-work.md) | Related works lookup | 7XX, 76X-78X |
+| [Search Related Work/Series](search-related-work.md) | Related works and series lookup | 7XX, 8XX |
 | [Script](script.md) | Script of the Work | 546 $b |
 | [Date of Work](date-of-work.md) | Date of Work | 046 $k |
 | [Country of Origin](country-of-origin.md) | Country of origin of the Work | 370 $g |
