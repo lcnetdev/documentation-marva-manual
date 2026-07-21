@@ -81,12 +81,12 @@ If you need to remove an entire variant, delete everything from the input.
 
 ![Variant Ready to be deleted](../images/image-1783454368261.png)
 
-### References Evaluatd
+### References Evaluated
 
 Near the bottom of the form is a checkbox to indicate if all of the non-Latin script references have been evaluated.
-Checking this does 2 things:
-1) Sets the 008/29 to a
-2) Deletes any 667 that says the non-Latin references are unevaluated
+> Checking this does 2 things:
+> 1) Sets the 008/29 to "a"
+> 2) Deletes any 667 that says the non-Latin references are unevaluated
 
 ## Submitting the Edit
 
@@ -95,7 +95,7 @@ present a MARC preview of the edits.
 
 ![Finished record with "Preview" highlighted](../images/image-1783454745657.png)
 
-![Preview of finished record with changes highlighted](../images/image-1783455077906.png)
+![Preview of finished record with changes highlighted and annotated](../images/image-1784642529147.png)
 
 ### Validation
 There's general validation that matches the NAR creation validation in Marva. In addition to that, the 
@@ -104,8 +104,8 @@ preferred without have a BCP47 code.
 
 ![Validation error: Multiple preferred](../images/image-1783455207639.png)
 
-![Validation error: Preferred form without BCP](../images/image-1783455408333.png)
+![Validation error: Preferred form without BCP](../images/image-1784642617073.png)
 
 If there are no validation errors, there will be a "Submit" button at the bottom.
 
-![Submit Button](../images/image-1783455555755.png)
+![Submit Button](../images/image-1784642713905.png)
