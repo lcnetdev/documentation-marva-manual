@@ -232,4 +232,52 @@ Wait 10 minutes for the new NAR to synch over to Folio.
 
 ---
 
+## NAR Creation with BCP47
+
+With the addition of BCP47 codes for non-Latin variants, there are some additional functionality and changes to NAR creation.
+
+### Changes
+
+Some of the encoding related to non-Latin variants has changed or has been removed. It is no longer necessary to include a 667 note about the non-Latin variants not having been evaluated. This note will not be added to new NARs that include non-Latin variants. 
+
+Related, the `008/29` will either be `n`, if there is no non-Latin 4XX, or `a`, if a non-Latin 4XX is present. And, the checkbox that created the 667 has been removed.
+
+### Additions
+
+Marva will try to assist in creating an appropriate `$7` for a non-Latin 4XX field. There is a button on the right side of the input that can build the subfield.
+
+![NAR Creation with $7 button highlighted](../images/image-1784746039177.png)
+
+By default, this button will create a `$7` that uses the language tag that appears most frequently in the bib record. Pressing the button will create a `$7` and set the appropriate indicator.
+
+![Variant after pressing $7 button. Changes highlighted.](../images/image-1784746293952.png)
+
+If you want to use a different language/script combination for the the `$7`, there is a dropdown labeled "Set BCP." It will be populated with all of the languages in the bib record and one additional choice "Expand."
+
+![BCP Selection with language options from the bib record.](../images/image-1784746515669.png)
+
+Choosing "Expand" will will cause the list to expand to include more options. The options come from an API call that takes the value in the `$a` and generates a list.
+
+![Expanded selection](../images/image-1784746678397.png)
+
+After selecting an option from this list, pressing the `$7` button will create a `$7` with that  value.
+
+![image](../images/image-1784746778239.png)
+
+### Advanced Mode
+
+Advanced mode has similar functionality. A `$7` button will appear after the input field. This button will use the same value that is used by the previous `$7` button. It will also set the indicator to indicate the form is preferred.
+
+This button will only appear when the tag is 4XX.
+
+![Advanced mode additional 4XX with $7 button highlighted ](../images/image-1784747114782.png)
+
+> NOTE: If there a multiple 4XX fields for a record and they have the same language information, only one of them should have an indicator that says it's the preferred form of the name.
+
+
+
+
+
+---
+
 [Back to Table of Contents](../index.md)
