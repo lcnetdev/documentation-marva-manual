@@ -189,15 +189,13 @@ Select 1XX -> 4XX: Russian. This will convert the romanized form in the 110 to t
 
 ![Transliterate dropdown showing options: "4xx -> 1xx: Russian", "1xx -> 4xx: Russian" (selected), "4xx -> 1xx: Thai", "4xx -> 1xx: Korean"](../images/page153_img01.png)
 
-The required 667 note (Non-Latin script references not evaluated) will be added automatically.
-
 ![Create Name Authority Record form showing 4102#$a with Cyrillic variant added](../images/page153_img02.png)
 
 ### Checking the 670 Source Citation
 
 Check the 670 Source citation data to be sure that it is correct. In this case, some modifications are needed to conform to the policies on showing systematically romanized forms of names in 670 fields. You can make the modifications directly in the template.
 
-![Create Name Authority Record form showing 670 field with both romanized and Cyrillic forms, and 667 Add Note checkbox checked](../images/page154_img01.png)
+![Create Name Authority Record form showing 670 field with both romanized and Cyrillic forms](../images/page154_img01.png)
 
 Be sure that everything added to the authorized access point is justified in the 670 field! If you need to add an additional 670 field, wait for the record to synch over to Folio (in 10 minutes), and add the additional 670 field there.
 
@@ -209,7 +207,7 @@ Once you are ok with the look of the new NAR, click on Preview NAR to see the co
          111111111122222222223333333333
     123456789012345678901234567890123456789
 LDR        nz  a22     ni 4500
-008   250508n| azannaabn          |b ana
+008   250508n| azannaabn          |a ana
 001   n2025500373
 003   DLC
 005   20250508085034.0
@@ -217,7 +215,6 @@ LDR        nz  a22     ni 4500
 040   $a DLC $b eng $e rda $c DLC
 110 2# $a Assotsiatsiia bol'shikh dannykh
 410 2# $a Ассоциация больших данных
-667   $a Non-Latin script references not evaluated.
 670   $a Analiz ispol'zovaniia sviazannykh dannykh v slavianoiazychnykh
 stranakh, 2025:  $b title page ( ... Ассоциации больших данных = Assotsiatsiia
 bol'shikh dannykh)  $u http://id.loc.gov/resources/instances/e1408527
