@@ -134,5 +134,23 @@ Your saved components are available across all records using the same profile (e
    - **Assign to a Group:** Group multiple components together to add them all at once.
 
 ---
+# Tips
+
+## Subject
+
+The component library can be used to apply often used subjects and subdivisions quickly. You can create a subject heading then add it to your component library.
+
+Once it's in your library anytime you want to use it, you can add it with a click and it will be fully built out and connected. You can also edit these adjust subject quickly instead of having to build a whole new subject.
+
+For example, if you have a component for a heading like `Dogs--History` and you want to add the subject `Dog adoption--History`. You can add the component for `Dogs--History` click it and then replace "dogs" with "dog adoption" and not have to change the subdivsion.
+
+Below is an example of creating a component for a reusable subdivision. The same idea can be applied to more complex headings.
+
+![Creating and reusing a subject subdivision](../images/subject-paste.gif)
+
+
+
+
+---
 
 [Back to Table of Contents](../index.md)
