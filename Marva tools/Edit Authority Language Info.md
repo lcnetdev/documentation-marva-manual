@@ -92,6 +92,11 @@ Near the bottom of the form is a checkbox to indicate if all of the non-Latin sc
 > 1) Sets the 008/29 to "a"
 > 2) Deletes any 667 that says the non-Latin references are unevaluated
 
+> **NOTE Partial Evaluation**
+> Marva will compare the number of variants that have BCP codes with the total number of variants, if the number of total variants is greater than the number of evaluated variants a 670 will be added stating "Some non-Latin script references evaluated."
+
+![Note: Some non-Latin script references evaluated](../images/image-1785248728482.png)
+
 ## Submitting the Edit
 
 Once all edits have been made, click the "Preview" button at the bottom of the form. This will perform validation and 
