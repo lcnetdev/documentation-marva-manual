@@ -75,6 +75,10 @@ There are 2 ways to add a variant.
 
 ![Add Variant Button](../images/image-1783454226229.png)
 
+When a variant is added from either method, an input for the 670 will appear toward the bottom of the form. Deleting an added 4XX will remove the last 670 note.
+
+![670 for variant](../images/image-1785246199284.png)
+
 ### Deleting a Variant
 
 If you need to remove an entire variant, delete everything from the input.
