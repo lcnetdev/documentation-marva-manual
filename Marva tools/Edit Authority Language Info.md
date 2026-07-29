@@ -85,7 +85,7 @@ If you need to remove an entire variant, delete everything from the input.
 
 ![Variant Ready to be deleted](../images/image-1783454368261.png)
 
-### References Evaluated
+### All References Evaluated
 
 Near the bottom of the form is a checkbox to indicate if all of the non-Latin script references have been evaluated.
 > Checking this does 2 things:
@@ -99,8 +99,16 @@ Near the bottom of the form is a checkbox to indicate if all of the non-Latin sc
 
 ## Submitting the Edit
 
-Once all edits have been made, click the "Preview" button at the bottom of the form. This will perform validation and 
-present a MARC preview of the edits.
+Once all edits have been made, click the "Preview" button at the bottom of the form. This will perform validation and present a MARC preview of the edits.
+
+>**Record should have the following changes:**
+>- Leader/05 = `c`
+>- Add 670 note for the test
+>- `$7` added to appropriate 4XXs
+>- 4XX indicators show when one is preferred
+>- 008/29 = `a`, **if** "All References Evaluated" is checked
+>- Remove 667 note: "Non-Latin scripts references not evaluated."
+>- Add 667 note: "Some non-Latin script references evaluated." **If** "all" is not checked and Marva detects that there are some 4XXs without `$7`
 
 ![Finished record with "Preview" highlighted](../images/image-1783454745657.png)
 
