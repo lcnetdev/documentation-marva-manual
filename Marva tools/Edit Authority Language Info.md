@@ -93,9 +93,9 @@ Near the bottom of the form is a checkbox to indicate if all of the non-Latin sc
 > 2) Deletes any 667 that says the non-Latin references are unevaluated
 
 > **NOTE Partial Evaluation**
-> Marva will compare the number of variants that have BCP codes with the total number of variants, if the number of total variants is greater than the number of evaluated variants a 670 will be added stating "Some non-Latin script references evaluated."
+> Marva will compare the number of variants that have BCP codes with the total number of variants, if the number of total variants is greater than the number of evaluated variants a 670 will be added stating " Non-Latin script variants with (bcp47) in subfield 7 have been evaluated. Others have not yet been evaluated."
 
-![Note: Some non-Latin script references evaluated](../images/image-1785248728482.png)
+![Note for partial evaluation.](../images/image-1786043076712.png)
 
 ## Submitting the Edit
 
@@ -108,7 +108,7 @@ Once all edits have been made, click the "Preview" button at the bottom of the f
 >- 4XX indicators show when one is preferred
 >- 008/29 = `a`, **if** "All References Evaluated" is checked
 >- Remove 667 note: "Non-Latin scripts references not evaluated."
->- Add 667 note: "Some non-Latin script references evaluated." **If** "all" is not checked and Marva detects that there are some 4XXs without `$7`
+>- Add 667 note: " Non-Latin script variants with (bcp47) in subfield 7 have been evaluated. Others have not yet been evaluated.." **If** "all" is not checked and Marva detects that there are some 4XXs without `$7`
 
 ![Finished record with "Preview" highlighted](../images/image-1783454745657.png)
 
@@ -126,3 +126,33 @@ preferred without have a BCP47 code.
 If there are no validation errors, there will be a "Submit" button at the bottom.
 
 ![Submit Button](../images/image-1784642713905.png)
+
+---
+
+# PCC Testing a& Feedback
+
+There are some pieces of this workflow that are related to the PCC's testing and feedback collection for preferred variants & BCP codes.
+
+## Testing Note
+Every record that goes through this process will have a 667 note added to it. That note is 
+> Non-Latin script variants with (bcp47) in subfield 7 are for PCC testing. Please do not remove or edit 4XX fields that contain subfield 7.
+
+There may be references in this documentation to older forms of that note. The note has gone through many revisions
+
+## Feedback
+
+There is an opportunity to provide feedback about difficulties in determining which form should be preferred or which BCP code to use with a variant.
+
+If everything went smoothly and there are no question or issues, there is no need to provide feedback.
+
+Feedback can be given by pressing the button next to preview. It will take you to a Microsoft Forms survey. We try to populate the form with as much information as we can.
+
+![Feedback Button](../images/image-1786042527364.png)
+
+## PCC Flagged NARs
+
+There are a number of NARs that the PCC Task Group has identified as wanting feedback on. If you are working on one of these records Marva will present a message and hide the "Submit" button until the feedback form has been opened.
+
+![image](../images/image-1786042751979.png)
+
+---
