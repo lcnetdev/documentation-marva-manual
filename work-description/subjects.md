@@ -126,7 +126,7 @@ To change or edit information in the subject component, best practice is to dele
 
 ## Using Literal Values as LCSH Subjects
 
-There are some situations where you will need to select a literal value for an authorized LCSH subject heading. These situations arise when you are dealing with what is called a "multiple" subdivision record.
+There are some situations where you will need to select a literal value for an authorized LCSH subject heading. The first situation arises when you are dealing with what is called a "multiple" subdivision record.
 
 A "multiple" subdivision is a subdivision in the subject authority file that incorporates bracketed terms, generally followed by the word *etc.* This device is used to suggest the creation of similar subdivisions under the heading in question. The presence of a multiple subdivision under a heading in the subject authority file automatically gives free-floating status to analogous subdivisions under the same heading, and, if the heading is a pattern heading, under those headings that it controls.
 
@@ -140,7 +140,11 @@ Literal values are indicated with yellow backgrounds. It is also necessary to se
 
 ![Subject component showing Biology--Dictionaries--Romanian as Partially Linked with MARC output](../images/page032_img02.png)
 
-![MARC output showing 650 field with $a Biology $v Dictionaries $x Romanian](../images/page032_img03.png)
+A second situation arises when you wish to insert a subject heading that is has not been published on an approved LCSH list yet. These headings can be added to the description by clicking the "Provisional" checkbox, and this setting also ensures that the MARC output will assign this heading a second indicator of "0".
+
+![Subject search for American baseball with the provisional box checked and Topic/Heading highlighted](../images/image-1786473773069.png)
+
+![Subject template showing American baseball as a provisional subject heading in Marva](../images/image-1786473419959.png)
 
 ---
 
