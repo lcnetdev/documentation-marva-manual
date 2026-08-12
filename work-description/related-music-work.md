@@ -29,3 +29,19 @@ If the resource includes several works with minor variations, like different key
 
 The existing data can be modified for the new work, and then posted as a new related work.
 
+## Use existing Related Music Work
+
+If the Related Music Work already exists in the BFDB, it can be retrieved when cataloging a different resource.
+
+From an empty "Add Music related work" template, input the title in the "Search related work" box and select the title.
+
+![Search results for Passacaglia](../images/image-1786550430975.png)
+
+Click the "add" button and the title will display in Marva. Add a Relationship designator to complete the template.
+![Marva display of Music related work "Passacaglia ; arranged" and relationship designator "part"](../images/image-1786550607813.png)
+
+
+
+
+
+
