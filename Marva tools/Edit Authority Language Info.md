@@ -7,12 +7,17 @@ This is included as part of a PCC Task Group. The changes that can be made are t
 language and script of a non-Latin variant and specifying if a name is the preferred form in that language.
 
 ### Accessing
-When looking up a name, if it has any non-Latin variants a button will appear next to the "Variants" section
-in the record's details. 
+When looking up a name, a button will appear next to the "Variants" section in the record's details. If the record has no variants, there will be a button under "Extra Details."
 
 ![Name search with button to start editing](../images/image-1783452105055.png)
 
-After clicking on this, the left side of the modal will change to a new interface.
+![Editing button for record with no variants](../images/image-1786555228523.png)
+
+After clicking on this, Marva will check if it needs to sync with FOLIO. While it's syncing there will be a small indication to the right of the the button. This can take a second or two. 
+
+![Record syncing with FOLIO](../images/bcp_sync.gif)
+
+When the sync is finished the left side of the modal will change to a new interface.
 
 ![BCP47 Edit Form](../images/image-1783452250754.png)
 
@@ -77,7 +82,9 @@ There are 2 ways to add a variant.
 
 When a variant is added from either method, an input for the 670 will appear toward the bottom of the form. Deleting an added 4XX will remove the last 670 note.
 
-![670 for variant](../images/image-1785246199284.png)
+![670 for variant](../images/image-1786555542354.png)
+
+You can remove the field with the delete button to the right of the input. If the field is left with only `$a` or it is deleted, the 670 will not be added to the MARC record. 
 
 ### Deleting a Variant
 
