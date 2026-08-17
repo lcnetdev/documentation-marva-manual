@@ -260,9 +260,14 @@ Choosing "Expand" will will cause the list to expand to include more options. Th
 
 ![Expanded selection](../images/image-1784746678397.png)
 
+
 After selecting an option from this list, pressing the `$7` button will create a `$7` with that  value.
 
 ![image](../images/image-1784746778239.png)
+
+For added 4XX fields, an "expand" button appears next to the input. It will use the value of the `$a` to generate 
+![Expand on added 4XX](../images/image-1786985064307.png)
+
 
 ### Advanced Mode
 
