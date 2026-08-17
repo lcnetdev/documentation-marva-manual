@@ -265,7 +265,7 @@ After selecting an option from this list, pressing the `$7` button will create a
 
 ![image](../images/image-1784746778239.png)
 
-For added 4XX fields, an "expand" button appears next to the input. It will use the value of the `$a` to generate 
+For added 4XX fields, an "expand" button appears next to the input. It will use the value of the `$a` to generate the values.
 ![Expand on added 4XX](../images/image-1786985064307.png)
 
 
