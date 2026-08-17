@@ -104,6 +104,14 @@ Near the bottom of the form is a checkbox to indicate if all of the non-Latin sc
 
 ![Note for partial evaluation.](../images/image-1786043076712.png)
 
+### All References Justified
+
+There's also a checkbox to say whether or not all the references have justification. There's a note in some records `667   $a Machine-derived non-Latin script reference project.` Which says that some variant was created for this project and indicate that a variant might not have justification. 
+
+Checking the box, will remove the note from the NAR. In cases where the NAR has been edited to provide justification for all names.
+
+![All References Justified](../images/image-1786994451411.png)
+
 ## Submitting the Edit
 
 Once all edits have been made, click the "Preview" button at the bottom of the form. This will perform validation and present a MARC preview of the edits.
