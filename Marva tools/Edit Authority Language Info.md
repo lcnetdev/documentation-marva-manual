@@ -144,6 +144,28 @@ If there are no validation errors, there will be a "Submit" button at the bottom
 
 ---
 
+## BCP Status
+
+When searching for a name in Marva, variants will have BCP47 information represented by an icon (🗣️) to the right of the variant.
+
+The color of the icon represents it's status:
+- Green: Preferred Form with BCP code
+- Gray: there's a BCP code, not marked preferred
+- Red: There's a BCP code with an undefined language `und-`
+
+If there is no green icon, there has been no BCP work on the name.
+
+Hovering over the icon will show the BCP information.
+
+![Gray and Red icons](../images/image-1787677794678.png)
+
+![Green icon with hover information](../images/image-1787677928358.png)
+
+> **NOTE**: The information isn't a perfect 1-to-1. If there are multiple forms of the name in the same script, only 1 will be shown. For example if there's a preferred name in `hani` and an unpreferred form in `hani`, only the preferred form of the name will have the information. As in the image above with the middle column.
+> Additionally, the hover information may not match exactly. The information being displayed is based on what's in ID and there might be differences to what's in the MARC. For example, if a BCP code would only be the language because the script is implied, the ID information may add the script. So `ko` would display as `ko-hang`. This is a cosmetic difference.
+
+---
+
 # PCC Testing a& Feedback
 
 There are some pieces of this workflow that are related to the PCC's testing and feedback collection for preferred variants & BCP codes.
