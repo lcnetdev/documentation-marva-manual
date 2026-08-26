@@ -153,7 +153,7 @@ The color of the icon represents it's status:
 - Gray: there's a BCP code, not marked preferred. *[BCP code is likely system generated.]*
 - Red: There's a BCP code with an undefined language `und-` *[BCP code is system generated.]*
 
-If there is no green icon, there has been no BCP work on the name.
+**If there is no green icon, there has been no BCP work on the name.**
 
 Hovering over the icon will show the BCP information.
 
