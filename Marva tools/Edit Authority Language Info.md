@@ -150,8 +150,8 @@ When searching for a name in Marva, variants will have BCP47 information represe
 
 The color of the icon represents it's status:
 - Green: Preferred Form with BCP code
-- Gray: there's a BCP code, not marked preferred
-- Red: There's a BCP code with an undefined language `und-`
+- Gray: there's a BCP code, not marked preferred. *[BCP code is likely system generated.]*
+- Red: There's a BCP code with an undefined language `und-` *[BCP code is system generated.]*
 
 If there is no green icon, there has been no BCP work on the name.
 
