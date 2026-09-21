@@ -4,7 +4,7 @@
 
 ScriptShifter is an open source tool that is used in Marva to romanize non-Latin script according to the ALA/LC Romanization Tables, and to generate non-Latin scripts from data romanized according to the ALA/LC Romanization Tables.
 
-ScriptShifter uses AI and user input to improve its responsiveness. Anyone working with ScriptShifter in Marva is welcome to provide feedback to the developers on ScriptShifter.
+ScriptShifter uses machine learning for some languages and scripts such as Arabic and Persian   and user feedback to improve the process. Anyone working with ScriptShifter in Marva is welcome to provide feedback to the developers on ScriptShifter.
 
 ## Setting ScriptShifter Scripts and Script Options
 
