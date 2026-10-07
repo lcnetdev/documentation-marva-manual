@@ -118,7 +118,7 @@ accessing-marva.md
 bibframe-overview.md
 Configuration
 Marva tools
-Workflows
+Create and Edit Descriptions
 work-description
 instance-description
 Reference
