@@ -7,6 +7,7 @@ The Work Description section of Marva contains all the components used to descri
 | Component | Description | MARC Field(s) |
 |-----------|-------------|----------------|
 | [Expression of (search for a Hub)](expression-hub.md) | Add a uniform title to a Work description | 130, 240 |
+| [Work type](work-type.md) | Type of work | Leader, byte 6 |
 | [Creator of Work](contributors.md) | Person, family, corporate body, jurisdiction, or conference that is the creator | 1XX |
 | [Title Information](title-information.md) | Title Proper of the Work | 245 $a, $n, $p |
 | [Contributors](contributors.md) | Person(s), family(ies), corporate body(ies), jurisdiction(s), or conference(s) that are contributors | 7XX |
