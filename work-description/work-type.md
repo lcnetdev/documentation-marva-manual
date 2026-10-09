@@ -1,6 +1,6 @@
 # Work type
 
-When MARC records are converted to BIBFRAME, the software combines byte 6 and 7 of the Leader and creates multiple Work types (rdf:type) These types were included in the BIBFRAME data and used to generate the applicable Leader bytes during the BIBFRAME-to-MARC conversion.
+When MARC records are converted to BIBFRAME, the software combines byte 6 and 7 of the Leader and creates multiple Work types (rdf:type) These types were included in the BIBFRAME data and used to generate the applicable Leader bytes in the Modern MARC record.
 
 Now, these types can be viewed and edited within Marva.
 
