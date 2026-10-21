@@ -6,7 +6,7 @@ The option is available from `Menu` > `Edit` > `Find & Replace`.
 
 ![Accessing Find & Replace](../images/image-1778259223633.png)
 
-Or through the shortcut `ctrl+alt+h`.
+Or through the shortcut `ctrl+shift+h`.
 
 ![Find & Replace searching for 'test'](../images/image-1778259304378.png)
 
