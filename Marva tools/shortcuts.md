@@ -25,7 +25,7 @@ When working on a subject, the  different search options at the top of the searc
 ![Subject search categories](../images/image-1773751136237.png)
 
 - LCSH/NAF: `ctrl+alt+1`
-- Children's Subjects: `ctrl+alt+22`
+- Children's Subjects: `ctrl+alt+2`
 - Geo. Subdiv.: `ctrl+alt+3`
 - Hubs: `ctrl+alt+4`
 - Entities: `ctrl+alt+5`
@@ -33,8 +33,8 @@ When working on a subject, the  different search options at the top of the searc
 ---
 
 ## Changing Text
-- Open Find & Replace: `ctrl+alt+h`
-- Change highlighted text to title case: `ctrl+alt+t`
+- Open Find & Replace: `ctrl+shift+h`
+- Change highlighted text to title case: `ctrl+shift+t`
 
 ---
 
