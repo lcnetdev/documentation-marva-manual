@@ -4,7 +4,7 @@ Marva supports Find & Replace on literal fields.
 
 The option is available from `Menu` > `Edit` > `Find & Replace`.
 
-![Accessing Find & Replace](../images/image-1778259223633.png)
+![Accessing Find & Replace](../images/image-1792612023504.png)
 
 Or through the shortcut `ctrl+shift+h`.
 
