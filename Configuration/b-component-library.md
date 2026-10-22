@@ -38,6 +38,25 @@ If you just want to only add information about bibliographical references and in
 
 All the options in the Default Component Library are listed in the Property panel when the Default Component Library option is checked in Preferences --> Sidebars -- Property.
 
+### Moving Defaults to Personal List
+
+Components in the default library can be moved into your personal library in case there are a few you use often and don't want to see the entire list.
+
+Above the libraries is a gear that will let you do this.
+!["Edit library" button](../images/image-1792698437584.png)
+
+Clicking it  will add a small "plus" to the right of the component name, or the button in cases were the component is a group.
+
+Clicking on the plus will open a window that allows you to change the name. The incoming name will match the name in the default library with `[D]` added to the end to indicate the source.
+
+![Component name edit](../images/image-1792698682314.png)
+
+Edit the name, or select "OK" to continue. You'll be prompted for each component when a group is being added.
+
+Once that is done, the copied component will appear with any personal components.
+
+![Default component copied into personal library](../images/image-1792698867040.png)
+
 ## Component Library
 
 The Component Library is a customized and personalized library that you can use for standard or repeated metadata values that you use regularly in cataloging.
@@ -148,7 +167,13 @@ Below is an example of creating a component for a reusable subdivision. The same
 
 ![Creating and reusing a subject subdivision](../images/subject-paste.gif)
 
+## Sharing
 
+You can share components with colleagues by exporting your preferences, sending them to the colleague, and then having them import them. When importing, select "Component Library."
+
+![Importing options with "Component Library" highlighted](../images/image-1792699017518.png)
+
+Always [backup preferences](./a-preferences-customization.md) before making changes.
 
 
 ---
