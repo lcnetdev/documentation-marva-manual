@@ -1,8 +1,7 @@
 # Preferences and Customization
 
 Marva has a large number of preference options that you can use to customize and individualize the Marva experience.
-
-![Preferences menu showing all customization categories](../images/page101_img01.png)
+![The Marva preference window](../images/image-1792701001833.png)
 
 ## ScriptShifter, Diacritic Macros, Text Macros
 
@@ -16,7 +15,6 @@ Field colors are used to customize individual components in Marva. For example, 
 
 ### Set Mandatory Field Color
 
-![Set Mandatory Field Color with color palette popup](../images/page101_img03.png)
 
 This will let you use a color of your choice as the background font for mandatory fields. Click on the Required Field Color icon and a palette will pop up from which you can choose the required field color. Only the required fields for the profile you selected will be in the color you chose.
 
