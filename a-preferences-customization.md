@@ -173,7 +173,7 @@ You can share components with colleagues by exporting your preferences, sending 
 
 ![Importing options with "Component Library" highlighted](../images/image-1792699017518.png)
 
-Always [backup preferences](../a-preferences-customization.md) before making changes.
+Always [backup preferences](./a-preferences-customization.md) before making changes.
 
 
 ---
