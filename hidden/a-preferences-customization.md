@@ -1,4 +1,4 @@
-# Using the Component Library
+# Duplicate doc (Using the Component Library)
 
 The **Component Library** is a tool that allows you to save and reuse data components across records. The Component Library consists of a **Default Component Library** and a **Component Library** that you can personalize. You can use one or the other, or both. Access the Component Library in the Property Panel of Marva.
 
