@@ -8,7 +8,7 @@ Contact the manual [editors](<mailto:jowill@loc.gov;cbarna@loc.gov?subject=Marva
 
 ## Introduction
 
-- [About the Library of Congress Marva Quartz User Manual](about.md)
+- [About the Library of Congress Marva User Manual](about.md)
 - [Accessing Marva](accessing-marva.md)
 - [BIBFRAME Work, Instance, and Item Descriptions](bibframe-overview.md)
 
