@@ -122,5 +122,6 @@ Create and Edit Descriptions
 work-description
 instance-description
 Reference
+a-preferences-customization.md
 hidden
 -->
