@@ -1,4 +1,4 @@
-## Searching Related Works and Hubs
+## Related Works and Hubs
 
 In MARC cataloging, we never really had to think about the difference between a Work that was represented by an authority record in the LC/NACO Authority File, and a Work that was added as a Related Work access point in a bibliographic record. Works were works in the MARC world. There were situations where you knew you were required to create an authority record for a Work -- for example, if you had a translation, and there was a creator involved with the original Work, you would create a name-title authority record for the translation so you could trace a variant access point from the translated title. Only an authority record could express that relationship in a structured way.
 
