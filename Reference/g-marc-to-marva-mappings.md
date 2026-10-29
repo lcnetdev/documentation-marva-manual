@@ -2,17 +2,6 @@
 
 This appendix provides a comprehensive mapping between MARC fields and their corresponding Marva components. Use this reference to understand how traditional MARC cataloging data translates into the BIBFRAME-based Marva editor.
 
-## Marva Component Colors
-
-In the original PDF, table cells are color-coded by Marva component type. Since Markdown cannot render cell background colors, the following legend indicates which color corresponds to each component area:
-
-| Color | Component Area |
-|-------|---------------|
-| Blue tint | **Work** |
-| Peach/salmon tint | **Instance** |
-| Green tint | **Item** |
-| Yellow tint | **Admin Metadata** |
-
 In the tables below, the **Marva Component** column indicates which area each mapping belongs to (Work, Instance, Item, or Admin).
 
 ---
