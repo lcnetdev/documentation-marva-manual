@@ -104,6 +104,27 @@ When searching a subject, adding `?` at the end of the word will perform a keywo
 
 ![Adding ? at the end of the word will perform a keyword search](../images/Picture13.png)
 
+### Symbols
+
+There are a few symbols that can appear when adding a subject heading.
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#000000"><path d="M12,17q0.43,0 0.71-0.29Q13,16.43 13,16t-0.29-0.71T12,15t-0.71,0.29T11,16t0.29,0.71T12,17Zm-1-4h2V7H11v6ZM8.25,21L3,15.75V8.25L8.25,3h7.5L21,8.25v7.5L15.75,21H8.25ZM9.1,19h5.8L19,14.9V9.1L14.9,5H9.1L5,9.1v5.8L9.1,19ZM12,12Z"/></svg> There heading doesn't have a link
+![Stop sign with !: No links](../images/image-1793378787772.png)
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#000000"><path d="M8.6,22.5L6.7,19.3L3.1,18.5l0.35-3.7L1,12L3.45,9.2L3.1,5.5L6.7,4.7L8.6,1.5L12,2.95L15.4,1.5l1.9,3.2l3.6,0.8L20.55,9.2L23,12l-2.45,2.8l0.35,3.7l-3.6,0.8l-1.9,3.2L12,21.05L8.6,22.5Zm0.85-2.55L12,18.85l2.6,1.1l1.4-2.4l2.75-0.65L18.5,14.1L20.35,12L18.5,9.85l0.25-2.8L16,6.45l-1.45-2.4L12,5.15L9.4,4.05L8,6.45L5.25,7.05L5.5,9.85L3.65,12L5.5,14.1L5.25,16.95L8,17.55l1.45,2.4ZM12,12Zm-1.05,3.55L16.6,9.9L15.2,8.45L10.95,12.7L8.8,10.6L7.4,12l3.55,3.55Z"/></svg> there is one link for the entire heading
+![Circle with chechmark: One link for everything](../images/image-1793378882926.png)
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#000000"><path d="M6.7,18L1.05,12.35l1.43-1.4L6.73,15.2l1.4,1.4L6.7,18Zm5.65,0L6.7,12.35l1.4-1.43l4.25,4.25l9.2-9.2l1.4,1.43L12.35,18Zm0-5.65l-1.43-1.4L15.88,6L17.3,7.4l-4.95,4.95Z"/></svg> there are multiple parts to the heading, each has a link
+![Multiple checkmarks: Multiple parts everything has a link](../images/image-1793378897978.png)
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#000000"><path d="M1,21L12,2L23,21H1Zm3.45-2h15.1L12,6L4.45,19Zm8.26-1.29Q13,17.43 13,17t-0.29-0.71T12,16t-0.71,0.29T11,17t0.29,0.71T12,18t0.71-0.29ZM11,15h2V10H11v5Zm1-2.5Z"/></svg> there are multiple parts to the heading, not everything is linked. 
+This can happen when the heading has a complex heading and a subdivision. If some part of the complex heading, doesn't have a URI, it will not be possible to link to it. The result is this symbol.
+![Triangle with !: Multiple parts, some have links and some don't](../images/image-1793378921480.png)
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#000000"><path d="M12.84,17.64q0.36-0.36 0.36-0.89t-0.36-0.89T11.95,15.5t-0.89,0.36q-0.36,0.36-0.36,0.89t0.36,0.89T11.95,18t0.89-0.36Zm-1.79-3.49H12.9q0-0.82 0.19-1.3t1.06-1.3q0.65-0.65 1.03-1.24T15.55,8.9q0-1.4-1.03-2.15T12.1,6Q10.68,6 9.79,6.75T8.55,8.55L10.2,9.2q0.13-0.45 0.56-0.97T12.1,7.7q0.8,0 1.2,0.44T13.7,9.1q0,0.5-0.3,0.94t-0.75,0.81q-1.1,0.97-1.35,1.47t-0.25,1.82ZM12,22q-2.07,0-3.9-0.79q-1.82-0.79-3.17-2.14Q3.58,17.73 2.79,15.9T2,12Q2,9.92 2.79,8.1Q3.58,6.27 4.93,4.93Q6.28,3.57 8.1,2.79Q9.93,2 12,2t3.9,0.79t3.17,2.14q1.35,1.35 2.14,3.17Q22,9.92 22,12t-0.79,3.9t-2.14,3.17q-1.35,1.35-3.17,2.14T12,22Zm0-2q3.35,0 5.68-2.32T20,12T17.68,6.32T12,4T6.33,6.32T4,12t2.33,5.68T12,20Zm0-8Z"/></svg> there are multiple parts none have links
+![Circle with ?: Multiple pieces no linls](../images/image-1793378941325.png)
+
 ---
 
 ## Link Mode
