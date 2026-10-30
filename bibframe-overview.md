@@ -24,13 +24,11 @@ Many MARC bibliographic fields have subfield $5 defined. Subfield $5 is used to 
 
 ![MARC record in Inventory showing fields with subfield $5 DLC highlighted in yellow](images/page009_img01.png)
 
-When a MARC record with subfield $5 DLC is brought into Marva for editing, the values in the fields with the subfield $5's will map to a BIBFRAME Instance.
+When a MARC record with subfield $5 DLC is brought into Marva for editing, the values in the fields with the subfield $5's will map to a BIBFRAME Item.
 
 ![Marva Item record showing Agents/collections associated with Item and Custodial history/Provenance fields](images/page009_img02.png)
 
-When a Modern MARC record is generated from a description in Marva that has information in the Item record, the information will map back to MARC in regular MARC bibliographic fields, but without subfield $5 DLC added.
-
-**These subfield $5 values should be added back manually to the appropriate fields in the Modern MARC record.**
+When a Modern MARC record is generated from a description in Marva that has information in the Item record, the information will map back to MARC in regular MARC bibliographic fields, including the $5 DLC data.
 
 When creating a native description (origbf) in Marva, if you want to record information that is specific to LC, create an Item record to add this information, if an Item record does not already exist.
 
