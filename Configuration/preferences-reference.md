@@ -2,18 +2,35 @@
 
 This page lists every option in the Marva Preferences dialog, grouped the way the dialog groups them, with a short description of what each one does. Most options include a short animation showing the option being changed (top) and the effect in Marva (bottom).
 
-To open the dialog, click **Preferences** in the Nav Bar and then **Preferences** in the menu. Use the drop-down at the top of the dialog to switch between option groups, or type in the search box to search across all groups. The dialog can be dragged by its title bar and resized from its bottom-right corner, so you can move it out of the way to see the effect of a change.
+## Opening Preferences
 
-You can also search for a specific preference by its label or description with the search box.
+Click **Preferences** in the Nav Bar at the top of Marva, then click **Preferences** at the top of the menu that opens. The Preferences dialog appears over the edit screen.
 
-Changes take effect immediately. See [Preferences and Customization](a-preferences-customization.md) for exporting, importing, saving to the database, and resetting preferences.
+![Clicking Preferences in the Nav Bar, choosing Preferences from the menu, and the Preferences dialog opening](../images/pref-open-dialog.webp)
+
+In the dialog, use the drop-down at the top to switch between option groups, or type in the search box to search every option by its label or description. The dialog can be dragged by its title bar and resized from its bottom-right corner, so you can move it out of the way to see the effect of a change. Changes take effect immediately; there is no save button.
 
 **Color options** open a color picker when clicked. The small icon next to a color option's description lets you type a color value directly (hex6 or hex8, for example `#ff0000`). **Slider options** show the current value to the left of the slider. **Checkbox options** are on when checked.
 
----
+## The Preferences menu
+
+![The Preferences menu in the Nav Bar](../images/pref-menu.png)
+
+Besides opening the dialog, the Preferences menu holds a few tools of its own:
+
+- **Scriptshifter**, **Diacritic Macros** and **Text Macros** open their own dialogs. See [Appendix C: ScriptShifter](c-scriptshifter.md).
+- **Field Colors** opens the Field Colors dialog, where you set a background color for mandatory fields, for all fields, for all Work or all Instance fields, or for individual components. Each has a *Default Color* and a *Data Changed Color* used once the field has a value. The undo icon beside a color returns it to the default.
+- **Themes** switches the whole Marva skin between *Default* (white background), *Dark* (black background, white text) and *Gray* (gray background, black text).
+- **Export Prefs** saves all of your preferences to a `.json` file that can be kept locally or shared with other Marva users. **Import Prefs** loads such a file; the dialog that opens lets you choose which parts to import (styling, ScriptShifter settings, text and diacritic macros, custom layouts, component library).
+- **Save to DB** stores your preferences in Marva's database under your login, and **Load from DB** restores them, so the same preferences can be used from another computer or browser without managing files.
+- **Reset Prefs** returns every preference to the Marva default.
+
+Preferences are kept in the browser, so make sure Chrome is allowed to save site data (`chrome://settings/content/siteData`, *Allow sites to save data on your device*). If a customization does not seem to apply, a hard refresh (Ctrl+Shift+R) usually fixes it. An imported component library only appears after a hard refresh.
 
 ## Contents
 
+- [Opening Preferences](#opening-preferences)
+- [The Preferences menu](#the-preferences-menu)
 - [Edit Panel](#edit-panel)
   - [Edit panel width](#edit-panel-width)
   - [No Scrollbar](#no-scrollbar)
@@ -41,6 +58,7 @@ Changes take effect immediately. See [Preferences and Customization](a-preferenc
   - [Spellcheck](#spellcheck)
   - [Compact View](#compact-view)
   - [Compact Min Width](#compact-min-width)
+  - [Placeholder Font Color](#placeholder-font-color)
 - [Sidebars - Property](#sidebars---property)
   - [Background Color](#background-color)
   - [Highlight Color](#highlight-color)
@@ -138,12 +156,15 @@ Changes take effect immediately. See [Preferences and Customization](a-preferenc
   - [Auto Save Mode](#auto-save-mode)
   - [No field colors in Workflows](#no-field-colors-in-workflows)
   - [Default Load Type "Continue"](#default-load-type-continue)
+  - [Load with Default Values](#load-with-default-values)
 - [Shelflisting](#shelflisting)
   - [Display cutter tools](#display-cutter-tools)
   - [Cutter Length](#cutter-length)
   - [Shelf List Accent](#shelf-list-accent)
+  - [ClassWeb Links Inline](#classweb-links-inline)
   - [Link 1 to Link 8 Label and URL](#link-1-to-link-8-label-and-url)
   - [MLC Division](#mlc-division)
+  - [Load with Classification Defaults](#load-with-classification-defaults)
 - [Scriptshifter](#scriptshifter)
   - [Capitalize the first letter](#capitalize-the-first-letter)
 - [Copy Cat](#copy-cat)
@@ -306,6 +327,12 @@ Lays out fields in columns so that a component takes up fewer lines. Default: of
 ### Compact Min Width
 
 With Compact View on, the smallest width in pixels a column can be before the fields stop being arranged in columns. Default: 500. Range: 100 to 1000.
+
+### Placeholder Font Color
+
+The color of the placeholder text shown inside an empty field. Placeholders only appear when [Display field labels](#display-field-labels) is off, since the field label is shown in the field instead. Default: black at half opacity (`#00000080`).
+
+![Changing the placeholder font color, with the placeholder text in empty fields changing color](../images/pref-edit-panel-placeholder-font-color.webp)
 
 ## Sidebars - Property
 
@@ -523,7 +550,9 @@ The size of the text typed into literal fields, as a multiplier of the base size
 
 ### Font Size Script
 
-The size of non-Latin script text in literal fields. Default: 1. Range: 1 to 2. This is useful when a script is hard to read at the same size as Latin text.
+The size of non-Latin script text in literal fields, relative to the normal font size. Latin-script text in the same component is not affected. Default: 1. Range: 1 to 2. This is useful when a script is hard to read at the same size as Latin text. Values above about 1.5 can clip the text in a single-line field.
+
+![Changing Font Size Script, with a Cyrillic note growing while the Latin value below it stays the same](../images/pref-literal-font-size-script.webp)
 
 ### Font Color
 
@@ -831,6 +860,14 @@ Stops the colors set under Field Colors from being applied to the cells of a Wor
 
 Sets the load type on the Load screen to *Continue Editing BF* instead of *Reconvert from MARC*. Reconverting ensures the record has gone through the latest MARC to BIBFRAME conversion. Default: off.
 
+### Load with Default Values
+
+Adds the profile's default values to every component when an existing record is loaded, the same as pressing *Add All Defaults* in the Property Sidebar. Normally defaults are only added to new records. Only empty fields are filled, so a record that already has a value keeps it. Default: off.
+
+In the example below the record has no classification or audience source. With the option on, Assigning agency, Used by assigning agency and Source are filled in on load.
+
+![Toggling Load with Default Values on, with Assigning agency and Source values appearing after the record is loaded](../images/pref-general-load-defaults.webp)
+
 ## Shelflisting
 
 Options for the cutter and shelflisting tools shown in the Classification numbers component.
@@ -849,6 +886,12 @@ The starting number of characters for the Cutter Calculator. Default: 3. Range: 
 
 The background color of every other row in the shelf list search results. Default: `#f1f7ff`.
 
+### ClassWeb Links Inline
+
+Shows the ClassWeb links to the right of the Cutter Calculator instead of above it. Default: off.
+
+![Toggling ClassWeb Links Inline on, with the ClassWeb links moving from above the Cutter Calculator to beside it](../images/pref-shelflist-classweb-links-inline.webp)
+
 ### Link 1 to Link 8 Label and URL
 
 Up to eight links to outside resources shown next to the Cutter Calculator. Each link has a label and a URL. The first three are set by default to the Cutter Table, the Biography Table, and the Translation Table. Leave a label blank to hide that link.
@@ -860,6 +903,12 @@ Up to eight links to outside resources shown next to the Cutter Calculator. Each
 ### MLC Division
 
 A division value to insert automatically after the MLCX part of an MLC number. Default: blank. See [MLC Numbers](../Marva%20tools/mlc-numbers.md).
+
+### Load with Classification Defaults
+
+Adds the default values of the LC Classification template, Assigning agency and Used by assigning agency, to the Classification numbers component when an existing record is loaded. No other component is changed. Not needed when [Load with Default Values](#load-with-default-values) is on, since that already adds every default. Default: off.
+
+![Toggling Load with Classification Defaults on, with the Classification numbers component filling in on load while the Intended audience Source stays empty](../images/pref-shelflist-load-classification-defaults.webp)
 
 ## Scriptshifter
 
@@ -922,7 +971,7 @@ The default value for the Priority field on the Copy Cat screen. Default: 3.
 A few preferences are managed outside the Preferences dialog:
 
 - **Diacritic Macros** and **Text Macros** have their own dialogs under the Preferences menu in the Nav Bar.
-- **Field Colors** are set from the Preferences menu. See [Preferences and Customization](a-preferences-customization.md).
+- **Field Colors** are set from the Field Colors dialog in the Preferences menu. See [The Preferences menu](#the-preferences-menu).
 - **Layouts** are saved from the Layouts menu. See [Layouts](layouts.md).
 - **Default profile**, used when pressing Enter on the Load screen, is set from the drop-down at the bottom of the Load screen.
 
