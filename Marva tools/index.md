@@ -29,3 +29,6 @@ The Marva editor has many built-in tools to assist with cataloging.
 
 ### Users
 [User directory](user-directory.md)
+
+### Working with many records
+[Workflows](workflows.md)
