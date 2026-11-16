@@ -54,6 +54,7 @@ Preferences are kept in the browser, so make sure Chrome is allowed to save site
   - [Scrollbar Track Color](#scrollbar-track-color)
   - [Scrollbar Thumb Color](#scrollbar-thumb-color)
   - [Hide non-LC Subjects](#hide-non-lc-subjects)
+  - [Hide non-LC GenreForms](#hide-non-lc-genreforms)
   - [Hide non-LC class numbers](#hide-non-lc-class-numbers)
   - [Spellcheck](#spellcheck)
   - [Compact View](#compact-view)
@@ -93,8 +94,15 @@ Preferences are kept in the browser, so make sure Chrome is allowed to save site
 - [Nav Bar](#nav-bar)
   - [Height](#height)
   - [Font Size](#font-size-2)
+  - [Icon Size](#icon-size)
+  - [Show Icons](#show-icons)
   - [Background Color](#background-color-2)
   - [Text Color](#text-color-2)
+  - [Button Color](#button-color)
+  - [Button Border Color](#button-border-color)
+  - [Profile/DCTap Text Color](#profiledctap-text-color)
+  - [Profile/DCTap Background Color](#profiledctap-background-color)
+  - [Profile/DCTap Border Color](#profiledctap-border-color)
 - [Literal Field](#literal-field)
   - [Font Size](#font-size-3)
   - [Font Size Script](#font-size-script)
@@ -310,6 +318,12 @@ The color of the scroll bar thumb (the part you drag) in the Edit Panel. Default
 
 Hides subject components whose headings are not from a Library of Congress vocabulary. Default: off.
 
+### Hide non-LC GenreForms
+
+Hides Genre/Form components whose term is not from the Library of Congress Genre/Form Terms (LCGFT), for example terms from FAST, AAT or RVMGF. Default: off. Which components count as non-LC is worked out when a record is loaded, so turn the option on before loading a record; if it was off when the record was loaded, nothing is hidden until the record is loaded again.
+
+![Checking Hide non-LC GenreForms, with the FAST and AAT Genre/Form components disappearing from the Edit Panel while the LCGFT ones stay](../images/pref-edit-panel-hide-non-lc-genreforms.webp)
+
 ### Hide non-LC class numbers
 
 Hides classification components that are not Library of Congress classification. Default: off.
@@ -512,19 +526,31 @@ With MARC HTML on, the background color of a subfield in the MARC preview when t
 
 ## Nav Bar
 
-Options for the Nav Bar across the top of Marva.
+Options for the Nav Bar across the top of Marva. The bar holds the Home button, the menu buttons (Menu, Tools, View, Preferences, Layouts, Save, Validate, Post, Open in LCAP), the Profile label (and, outside production, the DCTap environment picker), and the Record Info and user menus on the right. When the window is too narrow for everything, the items that do not fit move into an overflow menu at the right end of the bar.
 
 ### Height
 
-The height of the Nav Bar in pixels. Default: 35. Range: 5 to 50. Below about 25 the menu text overlaps the panels.
+The height of the Nav Bar in pixels. Default: 35. Range: 5 to 50. Below about 25 the buttons overlap the panels underneath.
 
-![Moving the Nav Bar Height slider, with the Nav Bar becoming taller](../images/pref-navbar-height.webp)
+![Moving the Nav Bar Height slider, with the Nav Bar becoming taller and then shorter](../images/pref-navbar-height.webp)
 
 ### Font Size
 
-The size of the menu text in the Nav Bar, as a multiplier of the base size. Default: 1. Range: 1 to 2.
+The size of the text in the Nav Bar, as a multiplier of the base size. Default: 1. Range: 1 to 2. The buttons grow with the text, so above about 1.3 they no longer fit inside the bar and the items on the right move into the overflow menu.
 
-![Moving the Nav Bar Font Size slider, with the menu text getting larger](../images/pref-navbar-font-size.webp)
+![Moving the Nav Bar Font Size slider, with the button text getting larger](../images/pref-navbar-font-size.webp)
+
+### Icon Size
+
+The size, in pixels, of the icons on the Nav Bar buttons. Default: 12. Range: 8 to 24. The Home and Quick View icons keep their own size and are not affected.
+
+![Moving the Icon Size slider, with the button icons getting larger and then smaller](../images/pref-navbar-icon-size.webp)
+
+### Show Icons
+
+Whether the Nav Bar buttons show an icon next to their label. Default: on. Turning it off leaves text-only buttons; the Home and Quick View icons always show.
+
+![Unchecking Show Icons, with the icons disappearing from the Nav Bar buttons](../images/pref-navbar-show-icons.webp)
 
 ### Background Color
 
@@ -534,9 +560,39 @@ The background color of the Nav Bar. Default: white.
 
 ### Text Color
 
-The color of the menu text in the Nav Bar. Default: `#202124`.
+The color of the text and icons on the Nav Bar buttons. Default: `#202124`.
 
 ![Changing the Nav Bar text color](../images/pref-navbar-text-color.webp)
+
+### Button Color
+
+The background color of the buttons in the Nav Bar. Default: black at 5% opacity, a light gray over the default white bar. Since the default is translucent it also works over a dark background color.
+
+![Changing the Nav Bar button color to yellow and then light blue](../images/pref-navbar-button-color.webp)
+
+### Button Border Color
+
+The border color of the buttons in the Nav Bar. Default: black at 20% opacity.
+
+![Changing the Nav Bar button border color to red and then blue](../images/pref-navbar-button-border-color.webp)
+
+### Profile/DCTap Text Color
+
+The text color of the Profile label (and the DCTap environment picker, which only appears outside production). Default: `#2c5f87`, a dark blue.
+
+![Changing the Profile label text color to red and then green](../images/pref-navbar-profile-text-color.webp)
+
+### Profile/DCTap Background Color
+
+The background color of the Profile label and DCTap picker. Default: black at 5% opacity.
+
+![Changing the Profile label background color to yellow and then green](../images/pref-navbar-profile-background-color.webp)
+
+### Profile/DCTap Border Color
+
+The border color of the Profile label and DCTap picker. Default: `#7898b2`, a gray-blue.
+
+![Changing the Profile label border color to red and then green](../images/pref-navbar-profile-border-color.webp)
 
 ## Literal Field
 
@@ -748,7 +804,7 @@ The background color of popup dialogs. Default: white.
 
 ### Background Accent Color
 
-A second background color used for accents, for example the profile name in the Nav Bar and the cutter tool area in a classification field. Default: whitesmoke.
+A second background color used for accents, for example the cutter tool area in a classification field. Default: whitesmoke. (The Profile label in the Nav Bar has its own [background color](#profiledctap-background-color).)
 
 ### Text Color
 
