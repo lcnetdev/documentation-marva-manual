@@ -1,11 +1,11 @@
 # Instance Description
 
-The Instance Description section of Marva covers data elements related to the physical or digital manifestation of a resource. Below are all the components available in the Instance Description.
+The Instance Description section of Marva covers BIBFRAME elements related to the physical or digital manifestation of a resource. Below are all the components available in the Instance Description.
 
 ## Components
 
 
-| Component | Description | MARC Field(s) |
+| BIBFRAME Component | Description | MARC Field(s) |
 |-----------|-------------|----------------|
 | [Title Information](title-information.md) | Transcribe title information from the Instance | 245, 246 |
 | [Title Information: Best Practice for Non-Latin Titles](title-non-latin.md) | Guidance on recording titles in non-Latin scripts |
