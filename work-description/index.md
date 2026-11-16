@@ -1,10 +1,10 @@
 # Work Description
 
-The Work Description section of Marva contains all the components used to describe the intellectual or artistic content of a bibliographic resource. Each component corresponds to specific MARC fields and follows a consistent pattern of Scope, Folio/MARC mapping, and detailed instructions.
+The Work Description section of Marva contains all the BIBFRAME components used to describe the intellectual or artistic content of a bibliographic resource. Each component corresponds to specific MARC fields and follows a consistent pattern of Scope, Folio/MARC mapping, and detailed instructions.
 
 ## Components
 
-| Component | Description | MARC Field(s) |
+| BIBFRAME Component | Description | MARC Field(s) |
 |-----------|-------------|----------------|
 | [Expression of (search for a Hub)](expression-hub.md) | Add a uniform title to a Work description | 130, 240 |
 | [Work type](work-type.md) | Type of work | Leader, byte 6 |
