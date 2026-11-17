@@ -9,6 +9,7 @@ The Marva editor has many built-in tools to assist with cataloging.
 ### Call number tools
 [Shelf listing browser](k-shelf-listing-browser.md)
 [MLC number generator](mlc-numbers.md)
+[Auto Dewey](auto-dewey.md)
 
 ### Editing tools
 [Find and replace](find-replace.md)
