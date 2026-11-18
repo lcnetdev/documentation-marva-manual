@@ -16,6 +16,7 @@ A **workflow** is a saved list of fields (for example *Monograph: CIP Verificati
 - [The record's buttons](#the-records-buttons)
 - [Choosing the fields](#choosing-the-fields)
 - [Options and the one-record-per-page layout](#options-and-the-one-record-per-page-layout)
+- [Exporting to CSV](#exporting-to-csv)
 - [Saving and coming back to a sheet](#saving-and-coming-back-to-a-sheet)
 - [CIP Verification](#cip-verification)
 - [Making your own workflow](#making-your-own-workflow)
@@ -59,9 +60,18 @@ Records are added through the scan box at the top of the sheet.
 
 ![The scan box at the top of the sheet](../images/wf-scan-box.png)
 
-- **Scan** a barcode (LCCN, ISBN or item barcode) at any time. The cursor does not need to be in the scan box, and a scan made while a cell is open still goes to the scan box.
-- **Type** an LCCN, ISBN or barcode in the box and press Enter.
-- **Paste a list** of identifiers into the box, one per line or separated by spaces or commas. They are all looked up and added in the order of the list.
+- **Scan** a barcode at any time. The cursor does not need to be in the scan box, and a scan made while a cell is open still goes to the scan box.
+- **Type** an identifier in the box and press Enter.
+- **Paste a list** of identifiers into the box, one per line or separated by spaces or commas. They are all looked up and added in the order of the list. A list can mix the kinds of identifier.
+
+### Identifiers you can use
+
+| Identifier | Example | |
+|---|---|---|
+| **LCCN** | `2024041514` | |
+| **ISBN** | `9780593318171` | An ISBN can match a print and an ebook record. See [When a scan matches several records](#when-a-scan-matches-several-records). |
+| **Item barcode** | | The barcode on the item. |
+| **FOLIO UUID** | `e4b0b11a-538d-5f80-a65d-e95f684c773f` | The record's UUID in FOLIO. Enter it as it is: Marva adds the `folio:` prefix the search needs. Typing `folio:` in front of it works too. |
 
 ![Pasting five LCCNs into the scan box and the five records loading](../images/wf-add-records.webp)
 
@@ -98,12 +108,15 @@ The bar at the top of the sheet:
 2. The sheet's name. Click to rename.
 3. How many records are marked Done.
 4. The scan box.
-5. Help: the mouse and keyboard reference.
-6. **Fields**: which fields the sheet shows. See [Choosing the fields](#choosing-the-fields).
-7. **Options**: layout and preferences.
-8. Zoom out, reset the view, zoom in.
-9. **Post All** posts every record that has not been posted yet, after asking you to confirm. It stops at the first record that fails.
-10. **Open All in LCAP** opens every record in LCAP, each in its own tab.
+5. Export: saves the records of the sheet as a CSV file. See [Exporting to CSV](#exporting-to-csv).
+6. Help: the mouse and keyboard reference.
+7. **Fields**: which fields the sheet shows. See [Choosing the fields](#choosing-the-fields).
+8. **Options**: layout and preferences.
+9. Zoom out, reset the view, zoom in.
+10. **Post All** posts every record that has not been posted yet, after asking you to confirm. It stops at the first record that fails.
+11. **Open All in LCAP** opens every record in LCAP, each in its own tab.
+
+On a narrow screen the scan box gets shorter to make room for the buttons.
 
 ### Moving around
 
@@ -126,7 +139,7 @@ A field with a list of values works as it does in the editor: type, pick from th
 - Opening a cell that holds a name, subject or other linked heading opens the search window for it, as in the editor.
 - Typing on a selected cell that already has text adds to the text. It does not replace it.
 - **Delete** or **Backspace** on a selected cell clears it.
-- **Ctrl/⌘ + Z** undoes the last change to a record. **Shift + Ctrl/⌘ + Z** redoes it. This works when no cell is open.
+- **Ctrl/⌘ + Z** undoes the last change to a record. **Shift + Ctrl/⌘ + Z** redoes it. This works when no cell is open. It also puts back a record that was taken off the sheet with its **×**.
 
 ### The action menu
 
@@ -157,6 +170,18 @@ Choose what should happen:
 
 Pasting down a column is one step to undo.
 
+#### Skipping the records marked Done
+
+Check **Skip the records marked done** at the top of the dialog to leave the records you have marked [Done](#the-records-buttons) as they are. The number after it says how many of the records are done.
+
+![The Paste down dialog with the Skip the records marked done box checked and highlighted](../images/wf-paste-skip-done.png)
+
+- The box applies to whichever of the four choices you click.
+- The numbers in the dialog change when you check it, so they say what the paste will touch. Above, two of the five records are done, so three cells are pasted into.
+- The message after the paste says how many done records were left as they were.
+- The box is grayed out when no record is marked done.
+- Marva remembers the box for the workflow. The next time you paste down a column on a sheet of that workflow it comes up the way you left it.
+
 ## The record's buttons
 
 The buttons under a record's title:
@@ -169,9 +194,9 @@ The buttons under a record's title:
 | **LCAP** | Opens the record in LCAP. |
 | **Editor** | Saves the record and opens it in the full Marva editor in a new tab. |
 | **Validate** | Checks the record with the validation service. The result shows under the record's title. Click it to see the messages, and click a message to jump to the field it is about. |
-| **Done** | Marks the record as done. Done records are grayed and counted at the top of the sheet. Editing a record again takes the mark off. |
+| **Done** | Marks the record as done. Done records are grayed and counted at the top of the sheet. Editing a record again takes the mark off. Done records can be left out when [pasting down a column](#skipping-the-records-marked-done), and can be [exported](#exporting-to-csv) on their own. |
 | **MARC** | Hold the mouse over it to see the record as MARC. |
-| **×** | Takes the record off the sheet. The record itself is not deleted. |
+| **×** | Takes the record off the sheet. The record itself is not deleted. Ctrl/⌘ + Z puts it back. |
 
 ![A record marked Done, with the count at the top of the sheet](../images/wf-done.png)
 
@@ -224,6 +249,83 @@ In this layout one record fills the page and its fields are stacked down it, whi
 - Bottom: the record's buttons.
 
 **W / S** or **Page Up / Page Down** turn to the previous or next record. A scan adds the record to the end of the list and leaves you on the record you are working on.
+
+## Exporting to CSV
+
+The records of a sheet can be saved as a CSV file, to open in Excel or another spreadsheet program. Click the download icon at the top of the sheet.
+
+![The top bar of the sheet with the export button highlighted](../images/wf-export-button.png)
+
+Choose what goes into the file and click **Download CSV**.
+
+![The Export to CSV dialog with numbered highlights](../images/wf-export.png)
+
+1. **Only the records marked done** leaves the other records out of the file. The numbers say how many of the sheet's records are done.
+2. **Linked values as** is for values that are linked to an authority or a vocabulary (a name, a subject, a language). **Label** exports the text, **URI** exports the link, **Both** exports two columns. Clicking one sets every linked field you have picked. A single field can be set on its own (8).
+3. **A field that repeats goes** says what to do with a field a record has more than once. See [Fields that repeat](#fields-that-repeat).
+4. Type in the filter box to find a field. **Reset to the sheet's fields** goes back to the identifiers and the fields the sheet is showing. **Deselect all** unchecks everything.
+5. **Identifiers**: what the record goes by. These are always the first columns of the file. See [The identifier columns](#the-identifier-columns).
+6. The fields. **Fields on this sheet** come first, checked the way the sheet shows them. Under them is every other Work and Instance field of the profile: a field does not have to be on the sheet to be exported. Check a field to export all of its parts. **Select all** checks every field under that heading.
+7. A field with several parts has an arrow. Open it to choose which parts are exported. A small number (*2/12*) says how many are picked.
+8. A linked field has **Label** and **URI** buttons. Turn on one or both. With both on, the file has two columns, for example *Creator of Work: Primary contributor* and *Creator of Work: Primary contributor URI*.
+9. How many columns and records the file will have.
+10. **Download CSV** saves the file. It is named after the sheet with the date, for example `New-books-cart-12-2026-11-18.csv`.
+
+What you picked is remembered for the workflow, so the next export starts from the same choices.
+
+A record that has not finished loading, or could not be loaded, only has its identifiers in the file. The dialog warns you when there are any.
+
+### The identifier columns
+
+| Column | What it holds |
+|---|---|
+| **Identifier scanned** | What was scanned or typed to add the record. |
+| **LCCN** | The record's LCCN. |
+| **ISBN** | The record's ISBNs that are not marked canceled. |
+| **Title** | The title shown in the Record column. |
+| **Instance URI** | The link to the Instance. |
+| **Work URI** | The link to the Work. |
+| **Marva ID** | The record's e number in Marva. |
+| **Record URL** | Where the record was loaded from. |
+| **Done** | *yes* or *no*. |
+| **Posted** | *yes* or *no*. |
+
+The first five are checked to begin with.
+
+### The field columns
+
+A column is named after its field. A field with several parts gets a column for each part you picked, named *Field: Part*, for example *Classification numbers: Classification number*. The URI column of a linked value has *URI* on the end. When a Work field and an Instance field have the same name, *[Work]* or *[Instance]* is added.
+
+### Fields that repeat
+
+A record can have a field more than once: two class numbers, three subjects, two contributors. There are three ways to put them in the file. The examples export the LCCN and two parts of the classification numbers of two records, each with a Library of Congress and a Dewey class number.
+
+**In one cell** keeps one line per record. The repeats share the cell, split with `|`.
+
+| LCCN | Classification numbers: Type | Classification numbers: Classification number |
+|---|---|---|
+| 2024041514 | Library of Congress classification \| Dewey Decimal classification | PS3603.R876 \| 813/.6 |
+| 2024006534 | Library of Congress classification \| Dewey Decimal classification | P299.M6 \| 415/.6 |
+
+The repeats keep their places across the columns of a field: the first type goes with the first number. When a repeat has nothing in a column its place is left empty, so `| 23` in a *Dewey edition number* column means the first class number has none and the second has 23.
+
+**In more columns** keeps one line per record and gives each repeat its own columns, numbered. There are as many sets of columns as the record with the most repeats needs.
+
+| LCCN | Classification numbers: Type (1) | Classification numbers: Classification number (1) | Classification numbers: Type (2) | Classification numbers: Classification number (2) |
+|---|---|---|---|---|
+| 2024041514 | Library of Congress classification | PS3603.R876 | Dewey Decimal classification | 813/.6 |
+| 2024006534 | Library of Congress classification | P299.M6 | Dewey Decimal classification | 415/.6 |
+
+**On the rows below** gives each repeat a line of its own. A record takes as many lines as its most repeated field. The identifiers are on every line of the record, so the lines can still be sorted and filtered. A field that does not repeat is only on the record's first line.
+
+| LCCN | Classification numbers: Type | Classification numbers: Classification number |
+|---|---|---|
+| 2024041514 | Library of Congress classification | PS3603.R876 |
+| 2024041514 | Dewey Decimal classification | 813/.6 |
+| 2024006534 | Library of Congress classification | P299.M6 |
+| 2024006534 | Dewey Decimal classification | 415/.6 |
+
+In all three, several values in one cell of the sheet (two content types in the one Content type field) stay together in one cell of the file, split with `;`.
 
 ## Saving and coming back to a sheet
 
@@ -405,5 +507,5 @@ The **?** button at the top of the sheet shows this list.
 | Delete, Backspace | clear the cell |
 | Ctrl / ⌘ + C | copy the cell |
 | Ctrl / ⌘ + V | paste the copied cell here, or on a gray line below a field as a new line |
-| Ctrl / ⌘ + Z | undo the last change to a record (Shift to redo) |
+| Ctrl / ⌘ + Z | undo the last change to a record, or a record taken off the sheet (Shift to redo) |
 | Esc | stop copying, deselect |

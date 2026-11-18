@@ -4,6 +4,12 @@ On the far upper left of the screen you will see "Load"
 
 In the box that states "URL to resource or identifier to search" scan, copy/paste, or enter the LCCN of the item.
 
+The box also takes these identifiers:
+
+- **ISBN**
+- **Item barcode**
+- **FOLIO UUID**, for example `e4b0b11a-538d-5f80-a65d-e95f684c773f`. Enter it as it is: Marva adds the `folio:` prefix the search needs.
+
 If you have just created the record in Folio, it might not appear in Marva immediately but there is a way to quickly sync the record:
 
 ![Request LCAP Sync](../images/Picture8.png)
