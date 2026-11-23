@@ -16,6 +16,7 @@ A **workflow** is a saved list of fields (for example *Monograph: CIP Verificati
 - [The record's buttons](#the-records-buttons)
 - [Choosing the fields](#choosing-the-fields)
 - [Options and the one-record-per-page layout](#options-and-the-one-record-per-page-layout)
+- [Shelflisting tools](#shelflisting-tools)
 - [Exporting to CSV](#exporting-to-csv)
 - [Saving and coming back to a sheet](#saving-and-coming-back-to-a-sheet)
 - [CIP Verification](#cip-verification)
@@ -248,7 +249,57 @@ In this layout one record fills the page and its fields are stacked down it, whi
 - Left column: the name of each field.
 - Bottom: the record's buttons.
 
+Under a Library of Congress class number are the shelflisting tools, see [Shelflisting tools](#shelflisting-tools).
+
 **W / S** or **Page Up / Page Down** turn to the previous or next record. A scan adds the record to the end of the list and leaves you on the record you are working on.
+
+## Shelflisting tools
+
+A Library of Congress class number in a workflow comes with the shelflisting tools the Marva editor has in its Classification numbers component: the ClassWeb links, the Cutter Calculator, your shelflisting links and **Shelf List Search**. What each tool is for is described in [Classification numbers](../work-description/classification-numbers.md).
+
+The tools need the *Classification numbers* field to be on the sheet (see [Choosing the fields](#choosing-the-fields)). They are shown for Library of Congress class numbers only: not for Dewey or other class numbers, and not for MLC numbers.
+
+### In the one-record-per-page layout
+
+The tools are always shown, under the class number they belong to.
+
+![The shelflisting tools under the LC class number of a record in the one-record-per-page layout, with numbered highlights](../images/wf-shelflist-page.png)
+
+1. **ClassWeb links**: search or browse ClassWeb for the record's class number. When the record has subject headings there is a ClassWeb search for the first two as well.
+2. **Cutter Calculator**: a cutter worked out from the creator's name, from the name starting at its second letter, and from the title. Type anything into *Free Form Cutter Input* to have a cutter worked out for it. The *Calc Length* slider sets how long the cutters are.
+3. **Shelflisting links**: the Cutter Table, Biography Table, Translation Table and any other links set in the Shelflisting preferences. They open in a new tab.
+4. **Shelf List Search**: opens the [Shelf Listing Browser](k-shelf-listing-browser.md) at the record's class number and cutter.
+
+### In the spreadsheet
+
+The rows of the sheet are kept short, so here the tools are closed until you ask for them. A calculator icon marks each LC class number, at the right of its *Additional call number information* cell.
+
+![A sheet with the calculator icon in the Additional call number information cell of a record highlighted](../images/wf-shelflist-icon.png)
+
+Click the icon to open the tools in a row under that line of the record.
+
+![The shelflisting tools open under the LC class number of the first record of a sheet, with two highlights](../images/wf-shelflist-sheet.png)
+
+1. The icon turns blue while the tools are open. Click it again to close them.
+2. The **X** closes them too.
+
+The tools of several records can be open at once. They stay open while you work elsewhere on the sheet, and are closed again the next time the sheet is opened. If the sheet does not have the *Additional call number information* column the icon is in the *Classification number* cell instead.
+
+### Using a cutter
+
+Click **Use** beside a cutter to put it into the record's *Additional call number information*. It works the same in both layouts.
+
+- The cutter replaces everything in that cell, a year included, so type the year back in after it.
+- **Ctrl / ⌘ + Z** takes it back out.
+- As with any other change, the record is saved a moment later and is no longer marked Done.
+
+The cutters are a guide. As in the editor, the number has to fit the order of the shelflist, which is what **Shelf List Search** is for.
+
+### Turning the tools off
+
+The tools are on to begin with. To turn them off, open **Options**, click **All preferences...** and uncheck [Shelflisting tools in Workflows](../Configuration/preferences-reference.md#shelflisting-tools-in-workflows). The icons in the spreadsheet and the tools on the page both go.
+
+The other Shelflisting preferences apply here as they do in the editor: the starting cutter length, whether the ClassWeb links are above or beside the Cutter Calculator, and the labels and URLs of the shelflisting links. *Display cutter tools* is for the editor only and does not change Workflows.
 
 ## Exporting to CSV
 
@@ -491,6 +542,7 @@ The **?** button at the top of the sheet shows this list.
 | Ctrl / ⌘ + wheel | zoom |
 | Column edge | drag to resize, double click to reset |
 | Column header | select the column, then paste a copied cell down it |
+| Calculator icon in a LC class number | open or close its shelflisting tools |
 
 ### Keyboard, with a cell selected
 
