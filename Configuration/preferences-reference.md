@@ -20,7 +20,7 @@ Besides opening the dialog, the Preferences menu holds a few tools of its own:
 
 - **Scriptshifter**, **Diacritic Macros** and **Text Macros** open their own dialogs. See [Appendix C: ScriptShifter](c-scriptshifter.md).
 - **Field Colors** opens the Field Colors dialog, where you set a background color for mandatory fields, for all fields, for all Work or all Instance fields, or for individual components. Each has a *Default Color* and a *Data Changed Color* used once the field has a value. The undo icon beside a color returns it to the default.
-- **Themes** switches the whole Marva skin between *Default* (white background), *Dark* (black background, white text) and *Gray* (gray background, black text).
+- **Themes** switches the whole Marva skin between *Default* (white background), *Dark* (black background, white text) and *Gray* (gray background, black text). A theme also sets the colors of the Workflows scroll bar.
 - **Export Prefs** saves all of your preferences to a `.json` file that can be kept locally or shared with other Marva users. **Import Prefs** loads such a file; the dialog that opens lets you choose which parts to import (styling, ScriptShifter settings, text and diacritic macros, custom layouts, component library).
 - **Save to DB** stores your preferences in Marva's database under your login, and **Load from DB** restores them, so the same preferences can be used from another computer or browser without managing files.
 - **Reset Prefs** returns every preference to the Marva default.
@@ -162,9 +162,22 @@ Preferences are kept in the browser, so make sure Chrome is allowed to save site
   - [Copy mode default](#copy-mode-default)
   - [Ad Hoc Mode](#ad-hoc-mode)
   - [Auto Save Mode](#auto-save-mode)
-  - [No field colors in Workflows](#no-field-colors-in-workflows)
   - [Default Load Type "Continue"](#default-load-type-continue)
   - [Load with Default Values](#load-with-default-values)
+- [Workflows](#workflows)
+  - [No field colors in Workflows](#no-field-colors-in-workflows)
+  - [Shelflisting tools in Workflows](#shelflisting-tools-in-workflows)
+  - [Scroll bar on the sheet](#scroll-bar-on-the-sheet)
+  - [Scroll bar size](#scroll-bar-size)
+  - [Scroll bar thumb color](#scroll-bar-thumb-color)
+  - [Scroll bar thumb color, in use](#scroll-bar-thumb-color-in-use)
+  - [Scroll bar track color](#scroll-bar-track-color)
+  - [Scroll bar border color](#scroll-bar-border-color)
+  - [Scroll bar roundness](#scroll-bar-roundness)
+  - [Scroll bar thumb margin](#scroll-bar-thumb-margin)
+  - [Scroll bar minimum thumb length](#scroll-bar-minimum-thumb-length)
+  - [Scroll bar arrow buttons](#scroll-bar-arrow-buttons)
+  - [Hide the scroll bar when not in use](#hide-the-scroll-bar-when-not-in-use)
 - [Shelflisting](#shelflisting)
   - [Display cutter tools](#display-cutter-tools)
   - [Cutter Length](#cutter-length)
@@ -908,10 +921,6 @@ Shows only the components that have data or are mandatory, and lets you add othe
 
 Saves the record to the backend after every change. Default: off.
 
-### No field colors in Workflows
-
-Stops the colors set under Field Colors from being applied to the cells of a Workflows sheet. Default: off.
-
 ### Default Load Type "Continue"
 
 Sets the load type on the Load screen to *Continue Editing BF* instead of *Reconvert from MARC*. Reconverting ensures the record has gone through the latest MARC to BIBFRAME conversion. Default: off.
@@ -924,13 +933,78 @@ In the example below the record has no classification or audience source. With t
 
 ![Toggling Load with Default Values on, with Assigning agency and Source values appearing after the record is loaded](../images/pref-general-load-defaults.webp)
 
+## Workflows
+
+Options for the [Workflows](../Marva%20tools/workflows.md) tool. The scroll bar options apply to a workflow in the Spreadsheet layout; the one-record-per-page layout does not have this scroll bar. **All preferences...** in a workflow's **Options** menu opens the Preferences dialog at this group.
+
+### No field colors in Workflows
+
+Stops the colors set under Field Colors from being applied to the cells of a Workflows sheet. Default: off. The same checkbox is in a workflow's **Options** menu.
+
+### Shelflisting tools in Workflows
+
+Shows the shelflisting tools (the Cutter Calculator, the ClassWeb links, the shelflisting links and **Shelf List Search**) with a Library of Congress class number in Workflows. These are the same tools the editor shows in the Classification numbers component. Default: on.
+
+- In the one-record-per-page layout the tools are shown under the class number in the Classification numbers component.
+- In the Spreadsheet layout a calculator icon appears in the component, in the *Additional call number information* cell of the class number. Click the icon to open the tools in a row under that line. Click the icon again, or the **X** in the corner of the tools, to close them.
+
+Clicking **Use** beside a cutter puts it in the record, and undo takes it back out. The tools are not shown for Dewey or other class numbers, or for MLC numbers.
+
+This option only turns the tools on or off in Workflows. *Display cutter tools* under [Shelflisting](#shelflisting) does the same for the editor and has no effect here. The other Shelflisting options (cutter length, where the ClassWeb links go, the link labels and URLs) apply in both places.
+
+### Scroll bar on the sheet
+
+Shows a scroll bar along the bottom of the sheet for moving left and right through the columns. Drag the thumb, or click the track beside the thumb to move one screen that way. The sheet can still be dragged and moved with the mouse wheel and the keyboard, and the scroll bar follows. Default: off. The same checkbox is in a workflow's **Options** menu, under Layout.
+
+The options below change how this scroll bar looks. They have no effect while it is off.
+
+### Scroll bar size
+
+How thick the scroll bar is, from 6 to 40 pixels. Default: 14.
+
+### Scroll bar thumb color
+
+The color of the scroll bar thumb (the part you drag). Default: `#7d848e`.
+
+### Scroll bar thumb color, in use
+
+The color of the thumb while the mouse is on it or it is being dragged. Default: `#565c66`.
+
+### Scroll bar track color
+
+The color of the scroll bar track (the strip the thumb moves along). A see-through color lets the color of the page behind the sheet show. Default: `#80808026`, a faint see-through gray.
+
+### Scroll bar border color
+
+The color of the line between the sheet and the scroll bar. Make the color fully see-through for no line. Default: `#80808066`, a see-through gray.
+
+### Scroll bar roundness
+
+How round the ends of the thumb are, from 0 to 20 pixels. 0 gives a square thumb. Default: 6.
+
+### Scroll bar thumb margin
+
+The space between the thumb and the edges of the track, from 0 to 10 pixels. 0 makes the thumb fill the track. On a thin scroll bar the space is reduced so that the thumb can still be seen. Default: 2.
+
+### Scroll bar minimum thumb length
+
+The shortest the thumb gets on a very wide sheet, from 20 to 200 pixels. Default: 40.
+
+### Scroll bar arrow buttons
+
+Adds an arrow button at each end of the scroll bar. Click one to move a step, or hold it down to keep moving. Default: off.
+
+### Hide the scroll bar when not in use
+
+Fades the scroll bar out when it is not being used. It comes back while the sheet moves and when the mouse is at the bottom of the sheet. Default: off.
+
 ## Shelflisting
 
 Options for the cutter and shelflisting tools shown in the Classification numbers component.
 
 ### Display cutter tools
 
-Shows the Cutter Calculator and shelflisting links in the Classification numbers component. The tools only appear when the record has a creator or title. Default: on.
+Shows the Cutter Calculator and shelflisting links in the Classification numbers component. The tools only appear when the record has a creator or title. Default: on. Workflows has its own switch for these tools, see [Shelflisting tools in Workflows](#shelflisting-tools-in-workflows).
 
 ![Toggling Display cutter tools off, with the Cutter Calculator disappearing from the Classification numbers component](../images/pref-shelflist-cutter-tools.webp)
 
