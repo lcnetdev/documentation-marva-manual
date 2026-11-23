@@ -6,9 +6,10 @@ In the box that states "URL to resource or identifier to search" scan, copy/past
 
 The box also takes these identifiers:
 
-- **ISBN**
+- **LCCN**
 - **Item barcode**
-- **FOLIO UUID**, for example `e4b0b11a-538d-5f80-a65d-e95f684c773f`. Enter it as it is: Marva adds the `folio:` prefix the search needs.
+- **FOLIO UUID**, for example `e4b0b11a-538d-5f80-a65d-e95f684c773f`. 
+- **ISBN** 
 
 If you have just created the record in Folio, it might not appear in Marva immediately but there is a way to quickly sync the record:
 
