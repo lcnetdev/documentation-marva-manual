@@ -123,7 +123,8 @@ On a narrow screen the scan box gets shorter to make room for the buttons.
 
 - Drag an empty part of the sheet to move it, or use the mouse wheel.
 - Ctrl (or ⌘) + wheel zooms. So do the − and + buttons.
-- Drag the edge of a column header to resize the column. Double-click the edge to reset it. Widths are remembered for that kind of column on every sheet.
+- A column is as wide as its header and the longest value in it need, so values are shown in full without wide empty columns. Very long text, such as a summary, is cut short with "..." instead: select the cell to read all of it. This can be changed or turned off in the preferences, see [Fit columns to their text](../Configuration/preferences-reference.md#fit-columns-to-their-text).
+- Drag the edge of a column header to resize the column. Double-click the edge to reset it. Widths you set are remembered for that kind of column on every sheet.
 
 ## Editing cells
 

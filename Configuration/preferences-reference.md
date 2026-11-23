@@ -167,6 +167,8 @@ Preferences are kept in the browser, so make sure Chrome is allowed to save site
 - [Workflows](#workflows)
   - [No field colors in Workflows](#no-field-colors-in-workflows)
   - [Shelflisting tools in Workflows](#shelflisting-tools-in-workflows)
+  - [Fit columns to their text](#fit-columns-to-their-text)
+  - [Longest text a column is fitted to](#longest-text-a-column-is-fitted-to)
   - [Scroll bar on the sheet](#scroll-bar-on-the-sheet)
   - [Scroll bar size](#scroll-bar-size)
   - [Scroll bar thumb color](#scroll-bar-thumb-color)
@@ -951,6 +953,25 @@ Shows the shelflisting tools (the Cutter Calculator, the ClassWeb links, the she
 Clicking **Use** beside a cutter puts it in the record, and undo takes it back out. The tools are not shown for Dewey or other class numbers, or for MLC numbers.
 
 This option only turns the tools on or off in Workflows. *Display cutter tools* under [Shelflisting](#shelflisting) does the same for the editor and has no effect here. The other Shelflisting options (cutter length, where the ClassWeb links go, the link labels and URLs) apply in both places.
+
+### Fit columns to their text
+
+In the Spreadsheet layout, makes each column as wide as its values and its header need: wide enough to show the values whole, so a value does not have to be found by widening its column, and no wider, so short values do not sit in wide columns. Default: on.
+
+- A column is never too narrow to read its header.
+- Very long values, such as a summary, are still cut short, in a column of the usual width. Where very long starts is the next option.
+- The widths follow what is on the sheet: a column gets wider or narrower as records come in and values are edited (after the cell is closed).
+- A cell opened in a narrow column is given room to type in, over the cells beside it.
+- A column you resize yourself keeps your width, wider or narrower than its values. Double-click the edge of its header to have it fitted again.
+- A width that was saved before columns were fitted is not used while this option is on.
+
+With the option off every column has a fixed width and longer values end in "...".
+
+### Longest text a column is fitted to
+
+Text wider than this counts as very long: a column is not widened for it and it stays cut short. From 240 to 1600 pixels. Default: 800, about 115 characters.
+
+Only used when *Fit columns to their text* is on.
 
 ### Scroll bar on the sheet
 
